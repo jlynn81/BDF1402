@@ -15,17 +15,6 @@ $db_user = "root";
 $db_pass = "root";
 
 
-
-$statement = $db->prepare("
-    SELECT Name, Height, Description
-    FROM TREES
-    WHERE (TREEID > 0)
-    ORDER BY Name, Height, Description
-");
-
-if ($statement->execute()) {
-    $rows = $statement->fetchAll(\PDO::FETCH_ASSOC);
-
     foreach ($rows as $num => $row){
         if($lastTree !== $row['Height']) {
             echo "<h2>${row['Name']}: ${row['Height']}</h2>";
