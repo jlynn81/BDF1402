@@ -8,3 +8,7 @@ body{
     border-width: 2em;
     font-family: 'Ledger', serif;
 }
+
+h1{
+    font-size: 40pt;
+}

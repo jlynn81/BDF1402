@@ -13,7 +13,7 @@ class TreeView {
     }
 
     public function showLastTree($rows) {
-        include 'views/latest-tree.php';
+        include 'views/latest-plant.php';
     }
 
-} 
+}

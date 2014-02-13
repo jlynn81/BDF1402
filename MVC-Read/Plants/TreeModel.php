@@ -33,11 +33,12 @@ class TreeModel {
             }
         }
         catch (\PDOException $e) {
-            echo "Database for Trees was not queried.";
+            echo "Database for Plants was not queried.";
             var_dump($e);
         }
 
         return array();
     }
+
 
 } 

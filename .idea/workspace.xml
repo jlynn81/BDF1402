@@ -29,9 +29,9 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MVC-Read/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="42" selection-start="251" selection-end="251" vertical-scroll-proportion="-8.32" vertical-offset="0" max-vertical-offset="480">
+            <state line="4" column="35" selection-start="109" selection-end="109" vertical-scroll-proportion="-2.56" vertical-offset="0" max-vertical-offset="464">
               <folding>
-                <marker date="1392294353000" expanded="true" signature="283:287" placeholder="..." />
+                <marker date="1392301780000" expanded="true" signature="285:289" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -46,15 +46,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MVC-Read/CSS/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="659">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="footer.inc" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MVC-Read/views/footer.inc">
           <provider selected="true" editor-type-id="text-editor">
@@ -64,33 +55,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="latest-tree.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MVC-Read/views/latest-tree.php">
+      <file leaf-file-name="latest-plant.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MVC-Read/views/latest-plant.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="38" selection-start="175" selection-end="175" vertical-scroll-proportion="-4.48" vertical-offset="0" max-vertical-offset="288">
+            <state line="13" column="0" selection-start="263" selection-end="263" vertical-scroll-proportion="0.32148376" vertical-offset="0" max-vertical-offset="647">
               <folding>
-                <marker date="1392298190000" expanded="true" signature="113:174" placeholder="..." />
-                <marker date="1392298190000" expanded="true" signature="113:149" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TreeModel.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MVC-Read/Trees/TreeModel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.64" vertical-offset="0" max-vertical-offset="768">
-              <folding>
-                <marker date="1392294457000" expanded="true" signature="407:536" placeholder="SELECT Name,..TREES..." />
+                <marker date="1392301802000" expanded="true" signature="113:174" placeholder="..." />
+                <marker date="1392301802000" expanded="true" signature="113:149" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="TreeView.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MVC-Read/Trees/TreeView.php">
+        <entry file="file://$PROJECT_DIR$/MVC-Read/Plants/TreeView.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="38" selection-start="243" selection-end="243" vertical-scroll-proportion="-8.96" vertical-offset="0" max-vertical-offset="384">
+            <state line="19" column="0" selection-start="298" selection-end="298" vertical-scroll-proportion="-12.16" vertical-offset="0" max-vertical-offset="400">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeModel.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MVC-Read/Plants/TreeModel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="5" selection-start="881" selection-end="881" vertical-scroll-proportion="-20.12" vertical-offset="137" max-vertical-offset="784">
+              <folding>
+                <marker date="1392301791000" expanded="true" signature="407:536" placeholder="SELECT Name,..TREES..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MVC-Read/Plants/db.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="9" selection-start="16" selection-end="16" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="208">
               <folding />
             </state>
           </provider>
@@ -128,12 +128,19 @@
         <option value="$PROJECT_DIR$/MVC-Read/Flowers/details.php" />
         <option value="$PROJECT_DIR$/MVC-Read/Flowers/TreeModel.php" />
         <option value="$PROJECT_DIR$/MVC-Read/Trees/db.php" />
-        <option value="$PROJECT_DIR$/MVC-Read/index.php" />
         <option value="$PROJECT_DIR$/MVC-Read/Trees/TreeView.php" />
-        <option value="$PROJECT_DIR$/MVC-Read/Trees/TreeModel.php" />
         <option value="$PROJECT_DIR$/MVC-Read/views/footer.inc" />
-        <option value="$PROJECT_DIR$/MVC-Read/views/latest-tree.php" />
         <option value="$PROJECT_DIR$/MVC-Read/views/header.inc" />
+        <option value="$PROJECT_DIR$/MVC-Read/CSS/styles.css" />
+        <option value="$PROJECT_DIR$/MVC-Read/Trees/TreeModel.php" />
+        <option value="$PROJECT_DIR$/MVC-Read/Plants/FlowerView.php" />
+        <option value="$PROJECT_DIR$/MVC-Read/views/latest-flower.php" />
+        <option value="$PROJECT_DIR$/MVC-Read/views/latest-tree.php" />
+        <option value="$PROJECT_DIR$/MVC-Read/Plants/FlowerModel.php" />
+        <option value="$PROJECT_DIR$/MVC-Read/Plants/TreeView.php" />
+        <option value="$PROJECT_DIR$/MVC-Read/index.php" />
+        <option value="$PROJECT_DIR$/MVC-Read/Plants/TreeModel.php" />
+        <option value="$PROJECT_DIR$/MVC-Read/views/latest-plant.php" />
       </list>
     </option>
   </component>
@@ -234,7 +241,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Trees" />
+              <option name="myItemId" value="Plants" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -273,6 +280,9 @@
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MVC-Read/Plants" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/MVC-Read" />
     </key>
@@ -393,7 +403,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="44" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="304">
           <folding>
-            <marker date="1392294353000" expanded="true" signature="283:287" placeholder="..." />
+            <marker date="1392301780000" expanded="true" signature="285:289" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -402,7 +412,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="44" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="128" max-vertical-offset="304">
           <folding>
-            <marker date="1392294353000" expanded="true" signature="283:287" placeholder="..." />
+            <marker date="1392301780000" expanded="true" signature="285:289" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -411,7 +421,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="44" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="128" max-vertical-offset="304">
           <folding>
-            <marker date="1392294353000" expanded="true" signature="283:287" placeholder="..." />
+            <marker date="1392301780000" expanded="true" signature="285:289" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -420,7 +430,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="12" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="304">
           <folding>
-            <marker date="1392294353000" expanded="true" signature="283:287" placeholder="..." />
+            <marker date="1392301780000" expanded="true" signature="285:289" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -429,7 +439,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="304">
           <folding>
-            <marker date="1392294353000" expanded="true" signature="283:287" placeholder="..." />
+            <marker date="1392301780000" expanded="true" signature="285:289" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -438,30 +448,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="304">
           <folding>
-            <marker date="1392294353000" expanded="true" signature="283:287" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MVC-Read/Trees/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="9" selection-start="16" selection-end="16" vertical-scroll-proportion="0.047761194" vertical-offset="0" max-vertical-offset="670">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MVC-Read/Trees/TreeView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="38" selection-start="243" selection-end="243" vertical-scroll-proportion="-8.96" vertical-offset="0" max-vertical-offset="384">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MVC-Read/Trees/TreeModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.64" vertical-offset="0" max-vertical-offset="768">
-          <folding>
-            <marker date="1392294457000" expanded="true" signature="407:536" placeholder="SELECT Name,..TREES..." />
+            <marker date="1392301780000" expanded="true" signature="285:289" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -486,29 +473,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MVC-Read/views/footer.inc">
+    <entry file="file://$PROJECT_DIR$/MVC-Read/CSS/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="9" selection-start="103" selection-end="103" vertical-scroll-proportion="-3.84" vertical-offset="0" max-vertical-offset="224">
+        <state line="14" column="0" selection-start="709" selection-end="709" vertical-scroll-proportion="0.33990896" vertical-offset="0" max-vertical-offset="659">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MVC-Read/views/latest-tree.php">
+    <entry file="file://$PROJECT_DIR$/MVC-Read/views/footer.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="38" selection-start="175" selection-end="175" vertical-scroll-proportion="-4.48" vertical-offset="0" max-vertical-offset="288">
-          <folding>
-            <marker date="1392298190000" expanded="true" signature="113:174" placeholder="..." />
-            <marker date="1392298190000" expanded="true" signature="113:149" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MVC-Read/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="42" selection-start="251" selection-end="251" vertical-scroll-proportion="-8.32" vertical-offset="0" max-vertical-offset="480">
-          <folding>
-            <marker date="1392294353000" expanded="true" signature="283:287" placeholder="..." />
-          </folding>
+        <state line="6" column="9" selection-start="103" selection-end="103" vertical-scroll-proportion="-3.84" vertical-offset="0" max-vertical-offset="224">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -519,10 +494,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MVC-Read/CSS/styles.css">
+    <entry file="file://$PROJECT_DIR$/MVC-Read/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="672">
+        <state line="4" column="35" selection-start="109" selection-end="109" vertical-scroll-proportion="-2.56" vertical-offset="0" max-vertical-offset="464">
+          <folding>
+            <marker date="1392301780000" expanded="true" signature="285:289" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVC-Read/Plants/TreeView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="298" selection-end="298" vertical-scroll-proportion="-12.16" vertical-offset="0" max-vertical-offset="400">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVC-Read/Plants/TreeModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="5" selection-start="881" selection-end="881" vertical-scroll-proportion="-20.12" vertical-offset="137" max-vertical-offset="784">
+          <folding>
+            <marker date="1392301791000" expanded="true" signature="407:536" placeholder="SELECT Name,..TREES..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVC-Read/Plants/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="9" selection-start="16" selection-end="16" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="208">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVC-Read/views/latest-plant.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="263" selection-end="263" vertical-scroll-proportion="0.32148376" vertical-offset="0" max-vertical-offset="647">
+          <folding>
+            <marker date="1392301802000" expanded="true" signature="113:174" placeholder="..." />
+            <marker date="1392301802000" expanded="true" signature="113:149" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
