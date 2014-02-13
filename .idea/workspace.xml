@@ -30,7 +30,9 @@
         <entry file="file://$PROJECT_DIR$/MVC-Read/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="39" column="0" selection-start="809" selection-end="809" vertical-scroll-proportion="-22.4" vertical-offset="0" max-vertical-offset="704">
-              <folding />
+              <folding>
+                <marker date="1392273414000" expanded="true" signature="380:651" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,14 +55,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contactsModel.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="contactsModel.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MVC-Read/models/contactsModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="31" selection-start="679" selection-end="679" vertical-scroll-proportion="0.5970149" vertical-offset="0" max-vertical-offset="670">
+            <state line="19" column="30" selection-start="466" selection-end="466" vertical-scroll-proportion="-12.16" vertical-offset="0" max-vertical-offset="544">
               <folding>
-                <marker date="1392274365000" expanded="true" signature="276:295" placeholder="select * fro..users..." />
-                <marker date="1392274365000" expanded="true" signature="509:555" placeholder="select * fro..userInfo..." />
+                <marker date="1392274489000" expanded="true" signature="276:295" placeholder="select * fro..users..." />
+                <marker date="1392274489000" expanded="true" signature="524:570" placeholder="select * fro..userInfo..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="body.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MVC-Read/views/body.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="59" selection-end="59" vertical-scroll-proportion="-2.56" vertical-offset="0" max-vertical-offset="368">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="details.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MVC-Read/views/details.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="17" selection-start="341" selection-end="341" vertical-scroll-proportion="0.40597016" vertical-offset="0" max-vertical-offset="670">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -89,6 +109,8 @@
         <option value="$PROJECT_DIR$/MVC-Read/index.php" />
         <option value="$PROJECT_DIR$/MVC-Read/models/viewModel.php" />
         <option value="$PROJECT_DIR$/MVC-Read/models/contactsModel.php" />
+        <option value="$PROJECT_DIR$/MVC-Read/views/body.php" />
+        <option value="$PROJECT_DIR$/MVC-Read/views/details.php" />
       </list>
     </option>
   </component>
@@ -171,7 +193,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -274,7 +296,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20475785" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918397" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2990654" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16652507" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918397" sideWeight="0.5004248" order="0" side_tool="true" content_ui="tabs" />
@@ -311,49 +333,63 @@
     <entry file="file://$PROJECT_DIR$/MVC-Read/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="44" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="304">
-          <folding />
+          <folding>
+            <marker date="1392273414000" expanded="true" signature="380:651" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MVC-Read/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="44" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="128" max-vertical-offset="304">
-          <folding />
+          <folding>
+            <marker date="1392273414000" expanded="true" signature="380:651" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MVC-Read/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="44" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="128" max-vertical-offset="304">
-          <folding />
+          <folding>
+            <marker date="1392273414000" expanded="true" signature="380:651" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MVC-Read/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="12" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="304">
-          <folding />
+          <folding>
+            <marker date="1392273414000" expanded="true" signature="380:651" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MVC-Read/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="304">
-          <folding />
+          <folding>
+            <marker date="1392273414000" expanded="true" signature="380:651" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MVC-Read/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="304">
-          <folding />
+          <folding>
+            <marker date="1392273414000" expanded="true" signature="380:651" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MVC-Read/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="0" selection-start="809" selection-end="809" vertical-scroll-proportion="-22.4" vertical-offset="0" max-vertical-offset="704">
-          <folding />
+          <folding>
+            <marker date="1392273414000" expanded="true" signature="380:651" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -373,11 +409,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MVC-Read/models/contactsModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="31" selection-start="679" selection-end="679" vertical-scroll-proportion="0.5970149" vertical-offset="0" max-vertical-offset="670">
+        <state line="19" column="30" selection-start="466" selection-end="466" vertical-scroll-proportion="-12.16" vertical-offset="0" max-vertical-offset="544">
           <folding>
-            <marker date="1392274365000" expanded="true" signature="276:295" placeholder="select * fro..users..." />
-            <marker date="1392274365000" expanded="true" signature="509:555" placeholder="select * fro..userInfo..." />
+            <marker date="1392274489000" expanded="true" signature="276:295" placeholder="select * fro..users..." />
+            <marker date="1392274489000" expanded="true" signature="524:570" placeholder="select * fro..userInfo..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVC-Read/views/body.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="59" selection-end="59" vertical-scroll-proportion="-2.56" vertical-offset="0" max-vertical-offset="368">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVC-Read/views/details.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="17" selection-start="341" selection-end="341" vertical-scroll-proportion="0.40597016" vertical-offset="0" max-vertical-offset="670">
+          <folding />
         </state>
       </provider>
     </entry>

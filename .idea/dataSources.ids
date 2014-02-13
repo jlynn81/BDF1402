@@ -31,6 +31,7 @@
       <column name="email" sqlType="VARCHAR" length="100" precision="0" nullable="true" jdbcType="12"/>
       <column name="phone" sqlType="VARCHAR" length="100" precision="0" nullable="true" jdbcType="12"/>
       <column name="address" sqlType="VARCHAR" length="100" precision="0" nullable="true" jdbcType="12"/>
+      <column name="username" sqlType="VARCHAR" length="100" precision="0" nullable="true" jdbcType="12"/>
       <primary-key name="PRIMARY" columns="id"/>
     </table>
     <table name="userType" schema="" catalog="BDF1402" type="TABLE">

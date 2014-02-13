@@ -17,7 +17,7 @@ class contactsModel extends database{
         //returns information back
         return $st->fetchAll();
     }
-    //gets one id
+    //gets/retrieves one user id
     public function getOne($userId=0){
         $sql = "select * from userInfo where userId = :$userId";
         $st = $this->db->prepare($sql);
