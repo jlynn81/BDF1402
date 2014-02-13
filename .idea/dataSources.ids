@@ -13,11 +13,11 @@
     <schema name="" catalog="mysql"/>
     <schema name="" catalog="performance_schema"/>
     <table name="FLOWERS" schema="" catalog="BDF1402" type="TABLE">
-      <column name="flowerid" sqlType="SMALLINT" length="5" precision="0" nullable="false" jdbcType="5" autoIncrement="true"/>
-      <column name="name" sqlType="VARCHAR" length="32" precision="0" nullable="false" jdbcType="12"/>
-      <column name="color" sqlType="VARCHAR" length="32" precision="0" nullable="false" jdbcType="12"/>
-      <column name="description" sqlType="VARCHAR" length="32" precision="0" nullable="false" jdbcType="12"/>
-      <primary-key name="PRIMARY" columns="flowerid"/>
+      <column name="FLOWERID" sqlType="SMALLINT" length="5" precision="0" nullable="false" jdbcType="5" def="MA=="/>
+      <column name="NAME" sqlType="VARCHAR" length="32" precision="0" nullable="true" jdbcType="12"/>
+      <column name="COLOR" sqlType="VARCHAR" length="32" precision="0" nullable="true" jdbcType="12"/>
+      <column name="DESCRIPTION" sqlType="VARCHAR" length="32" precision="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="FLOWERID"/>
     </table>
     <table name="TREES" schema="" catalog="BDF1402" type="TABLE">
       <column name="TREEID" sqlType="SMALLINT" length="5" precision="0" nullable="false" jdbcType="5" def="MA=="/>

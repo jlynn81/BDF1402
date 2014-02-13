@@ -21,17 +21,13 @@ class TreeModel {
 
         }
 
-
-
     }
-
-
 
     public function getLatestTree() {
         $statement = $this->db->prepare("
             SELECT Name, Height, Description
             FROM TREES
-            WHERE (TREEID > 0)
+            WHERE (TREEID)
             ORDER BY Name, Height, Description
         ");
 
