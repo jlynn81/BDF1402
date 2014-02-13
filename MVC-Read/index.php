@@ -14,7 +14,7 @@ $db_user = "root";
 
 $db_pass = "root";
 
-$db = new \PDO($dsn, $db_user, $db_pass);
+
 
 $statement = $db->prepare("
     SELECT Name, Height, Description
