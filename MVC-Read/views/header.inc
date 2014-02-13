@@ -8,6 +8,8 @@
 </head>
 
 <center>
-    <p><b> User Information </b></p>
+    <p><b> The Plant Manager Application </b></p>
     <p><a href="?action=">HOME</a> | <a href="?action=login">Login</a></p>
+
+
 </center>

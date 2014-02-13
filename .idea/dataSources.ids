@@ -12,21 +12,21 @@
     <schema name="" catalog="information_schema"/>
     <schema name="" catalog="mysql"/>
     <schema name="" catalog="performance_schema"/>
-    <table name="flowers" schema="" catalog="BDF1402" type="TABLE">
+    <table name="FLOWERS" schema="" catalog="BDF1402" type="TABLE">
       <column name="flowerid" sqlType="SMALLINT" length="5" precision="0" nullable="false" jdbcType="5" autoIncrement="true"/>
       <column name="name" sqlType="VARCHAR" length="32" precision="0" nullable="false" jdbcType="12"/>
       <column name="color" sqlType="VARCHAR" length="32" precision="0" nullable="false" jdbcType="12"/>
       <column name="description" sqlType="VARCHAR" length="32" precision="0" nullable="false" jdbcType="12"/>
       <primary-key name="PRIMARY" columns="flowerid"/>
     </table>
-    <table name="trees" schema="" catalog="BDF1402" type="TABLE">
-      <column name="treeid" sqlType="SMALLINT" length="5" precision="0" nullable="false" jdbcType="5" autoIncrement="true"/>
-      <column name="name" sqlType="VARCHAR" length="32" precision="0" nullable="false" jdbcType="12"/>
-      <column name="height" sqlType="VARCHAR" length="32" precision="0" nullable="false" jdbcType="12"/>
-      <column name="description" sqlType="VARCHAR" length="32" precision="0" nullable="false" jdbcType="12"/>
-      <primary-key name="PRIMARY" columns="treeid"/>
+    <table name="TREES" schema="" catalog="BDF1402" type="TABLE">
+      <column name="TREEID" sqlType="SMALLINT" length="5" precision="0" nullable="false" jdbcType="5" def="MA=="/>
+      <column name="NAME" sqlType="VARCHAR" length="32" precision="0" nullable="true" jdbcType="12"/>
+      <column name="HEIGHT" sqlType="VARCHAR" length="32" precision="0" nullable="true" jdbcType="12"/>
+      <column name="DESCRIPTION" sqlType="VARCHAR" length="32" precision="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="TREEID"/>
     </table>
-    <table name="userInfo" schema="" catalog="BDF1402" type="TABLE">
+    <table name="USERINFO" schema="" catalog="BDF1402" type="TABLE">
       <column name="id" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
       <column name="email" sqlType="VARCHAR" length="100" precision="0" nullable="true" jdbcType="12"/>
       <column name="phone" sqlType="VARCHAR" length="100" precision="0" nullable="true" jdbcType="12"/>
@@ -34,16 +34,16 @@
       <column name="username" sqlType="VARCHAR" length="100" precision="0" nullable="true" jdbcType="12"/>
       <primary-key name="PRIMARY" columns="id"/>
     </table>
-    <table name="userType" schema="" catalog="BDF1402" type="TABLE">
-      <column name="id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
-      <primary-key name="PRIMARY" columns="id"/>
-    </table>
-    <table name="users" schema="" catalog="BDF1402" type="TABLE">
+    <table name="USERS" schema="" catalog="BDF1402" type="TABLE">
       <column name="userId" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
       <column name="firstName" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
       <column name="lastName" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
       <column name="pass" sqlType="VARCHAR" length="10" precision="0" nullable="true" jdbcType="12"/>
       <primary-key name="PRIMARY" columns="userId"/>
+    </table>
+    <table name="userType" schema="" catalog="BDF1402" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <primary-key name="PRIMARY" columns="id"/>
     </table>
     <table name="usersNotNormalized" schema="" catalog="BDF1402" type="TABLE">
       <column name="userId" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>

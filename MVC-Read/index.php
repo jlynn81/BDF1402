@@ -1,40 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head><title>Plants of Love</title></head>
+
+<body>
+
+<h1>Trees</h1>
+<p>Tree Information Database</p>
+
 <?php
-/**
- * User: jlynn81
- * Class BDF1402
- * Date: 2/10/14
- */
+$dsn = "mysql:host=127.0.0.1;port=8889;dbname=BDF1402";
 
-    // Creates Index Page
-include 'models/viewModel.php';
-include 'models/contactsModel.php';
+$db_user = "root";
 
-$pagename = 'index';
+$db_pass = "root";
 
-$views = new viewModel();
-$contacts = new contactsModel();
+$db = new \PDO($dsn, $db_user, $db_pass);
 
-    //Display Header with buttons
+$statement = $db->prepare("
+    SELECT Name, Height, Description
+    FROM TREES
+    WHERE (TREEID > 0)
+    ORDER BY Name, Height, Description
+");
 
-$views->getView("views/header.inc");
+if ($statement->execute()) {
+    $rows = $statement->fetchAll(\PDO::FETCH_ASSOC);
 
-    //Create beginning of User List
-if(!empty($_GET["action"])){
-    if($_GET["action"]=="home"){
-        $result = $contacts->getAll();
-        $views->getView("views/body.php",$result);
-    }if($_GET["action"]=="details"){
-        $result = $contacts->getOne($_GET["id"]);
-        $views->getView("views/details.php",$result);
+    foreach ($rows as $num => $row){
+        if($lastTree !== $row['Height']) {
+            echo "<h2>${row['Name']}: ${row['Height']}</h2>";
+        }
+        echo "<li>${row['Description']}</li>";
+        $lastTree = $row['Height'];
+
     }
-}else{
-    $result = $contacts->getALL();
-    $views->getView("views/body.php",$result);
 }
 
-    //Display page Footer
-$views->getView("views/footer.inc");
+?>
 
+</body>
+</html>
 
 
 
