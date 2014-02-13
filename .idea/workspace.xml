@@ -29,17 +29,38 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MVC-Read/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="4" selection-start="70" selection-end="70" vertical-scroll-proportion="-1.92" vertical-offset="0" max-vertical-offset="704">
+            <state line="39" column="0" selection-start="809" selection-end="809" vertical-scroll-proportion="-22.4" vertical-offset="0" max-vertical-offset="704">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="database.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MVC-Read/models/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="76" selection-start="434" selection-end="434" vertical-scroll-proportion="0.5346062" vertical-offset="0" max-vertical-offset="419">
+            <state line="19" column="0" selection-start="483" selection-end="483" vertical-scroll-proportion="-12.16" vertical-offset="0" max-vertical-offset="400">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="viewModel.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MVC-Read/models/viewModel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="67" selection-start="73" selection-end="73" vertical-scroll-proportion="-0.64" vertical-offset="0" max-vertical-offset="272">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contactsModel.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MVC-Read/models/contactsModel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="31" selection-start="679" selection-end="679" vertical-scroll-proportion="0.5970149" vertical-offset="0" max-vertical-offset="670">
+              <folding>
+                <marker date="1392274365000" expanded="true" signature="276:295" placeholder="select * fro..users..." />
+                <marker date="1392274365000" expanded="true" signature="509:555" placeholder="select * fro..userInfo..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,8 +85,10 @@
       <list>
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/test.php" />
-        <option value="$PROJECT_DIR$/MVC-Read/index.php" />
         <option value="$PROJECT_DIR$/MVC-Read/models/database.php" />
+        <option value="$PROJECT_DIR$/MVC-Read/index.php" />
+        <option value="$PROJECT_DIR$/MVC-Read/models/viewModel.php" />
+        <option value="$PROJECT_DIR$/MVC-Read/models/contactsModel.php" />
       </list>
     </option>
   </component>
@@ -243,10 +266,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="143" y="22" width="1219" height="815" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918397" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32918397" sideWeight="0.4995752" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918397" sideWeight="0.4995752" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918397" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20475785" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -329,15 +352,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MVC-Read/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="4" selection-start="70" selection-end="70" vertical-scroll-proportion="-1.92" vertical-offset="0" max-vertical-offset="704">
+        <state line="39" column="0" selection-start="809" selection-end="809" vertical-scroll-proportion="-22.4" vertical-offset="0" max-vertical-offset="704">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVC-Read/models/viewModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="67" selection-start="73" selection-end="73" vertical-scroll-proportion="-0.64" vertical-offset="0" max-vertical-offset="272">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MVC-Read/models/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="76" selection-start="434" selection-end="434" vertical-scroll-proportion="0.5346062" vertical-offset="0" max-vertical-offset="419">
+        <state line="19" column="0" selection-start="483" selection-end="483" vertical-scroll-proportion="-12.16" vertical-offset="0" max-vertical-offset="400">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVC-Read/models/contactsModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="31" selection-start="679" selection-end="679" vertical-scroll-proportion="0.5970149" vertical-offset="0" max-vertical-offset="670">
+          <folding>
+            <marker date="1392274365000" expanded="true" signature="276:295" placeholder="select * fro..users..." />
+            <marker date="1392274365000" expanded="true" signature="509:555" placeholder="select * fro..userInfo..." />
+          </folding>
         </state>
       </provider>
     </entry>

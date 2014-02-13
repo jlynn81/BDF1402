@@ -38,5 +38,5 @@ $views->getView("views/footer.inc");
 
 
 
-?>
+
 
