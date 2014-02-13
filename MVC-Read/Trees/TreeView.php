@@ -2,22 +2,18 @@
 
 class TreeView {
 
-    public function showHeader($pageTitle = ''){
-        echo<<<__HEADER__
+    public function showTreeHeader($pageTitle = ''){
 
-<!DOCTYPE html>
-<html>
-<head><title>$pageTitle</title></head>
+        include 'views/header.inc';
 
-<body>
+    }
 
-<h1>$pageTitle</h1>
-<p>Tree Information Database</p>
+    public function showTreeFooter() {
+        include 'views/footer.inc';
+    }
 
-__HEADER__;
-
-
-
+    public function showLastTree($rows) {
+        include 'views/latest-tree.php';
     }
 
 } 
