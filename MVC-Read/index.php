@@ -8,7 +8,7 @@ $model = new TreeModel(DSN, USER, PASS);
 
 $view = new TreeView();
 
-$view->showTreeHeader('Trees', 'Flowers');
+$view->showTreeHeader('Plants');
 
 $view->showLastTree($model->getTreeData());
 $view->showLastFlower($model->getFlowerData());
