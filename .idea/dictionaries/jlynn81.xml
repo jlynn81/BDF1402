@@ -5,6 +5,7 @@
       <w>dbname</w>
       <w>pagename</w>
       <w>treeid</w>
+      <w>viewport</w>
     </words>
   </dictionary>
 </component>
