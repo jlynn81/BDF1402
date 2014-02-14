@@ -1,22 +1,40 @@
 body{
-    background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(242,230,167,0) 100%);/* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(100%,rgba(242,230,167,0))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(242,230,167,0) 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(242,230,167,0) 100%); /* Opera 11.10+ */
-    background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(242,230,167,0) 100%); /* W3C */
+    background: rgb(247,251,252); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(247,251,252,1) 0%, rgba(217,237,242,1) 40%, rgba(173,217,228,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,251,252,1)), color-stop(40%,rgba(217,237,242,1)), color-stop(100%,rgba(173,217,228,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7fbfc', endColorstr='#add9e4',GradientType=0 ); /* IE6-9 */
+
     border-radius: 1.25%;
     border-width: 2em;
     font-family: 'Ledger', serif;
+    text-align: left;
+    padding: 20px;
 }
 
 h1{
+    background-color: #91B7D9;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 10px;
     font-size: 40pt;
 }
-h2 h3{
-    font-size: 24pt;
+#intro{
+    font-size: 16pt;
+
+}
+h2, h3{
+    font-size: 20pt;
 }
 
-#intro{
-    font-size: 18pt;
-    
+li{
+    list-style: none;
+    font-size: 14pt;
+}
+
+a{
+    font-size: 24pt;
 }

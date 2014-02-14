@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<header>
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
@@ -14,12 +14,17 @@
 <!--    Web font for site-->
     <link href='http://fonts.googleapis.com/css?family=Ledger' rel='stylesheet' type='text/css'>
 
-    <title><?php echo $pageTitle; ?></title></head>
+    <title><?php echo $pageTitle; ?></title>
+
+</header>
 
 <body>
 
 <h1><?php echo $pageTitle; ?></h1>
 <p id="intro">Plant Information Database</p>
-<h2><a href="views/html/latest-tree.inc">Trees</a></h2>
-<h3><a href="views/html/latest-flower.inc">Flowers</a></h3>
+<a href="views/html/latest-tree.inc">Trees</a>
+<a href="views/html/latest-flower.inc">Flowers</a>
+
+
+
 
