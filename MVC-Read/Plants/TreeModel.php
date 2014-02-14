@@ -18,6 +18,10 @@ class TreeModel {
 
     }
 
+    /**
+     * @return array Records from the database, as an array
+     */
+
     public function getTreeData() {
         $statement = $this->db->prepare("
             SELECT Name, Height, Description
@@ -27,17 +31,20 @@ class TreeModel {
         ");
 
         try{
+            //executes the SQL statement and returns rows
             if ($statement->execute()) {
                 $rows = $statement->fetchAll(\PDO::FETCH_ASSOC);
                 return $rows;
             }
         }
+        //if the execution fails a PDO execution will generate
         catch (\PDOException $e) {
             echo "Database for Plants was not queried.";
             var_dump($e);
         }
 
         return array();
+
     }
 
     public function getFlowerData() {

@@ -37,4 +37,9 @@ li{
 
 a{
     font-size: 24pt;
+    display: block;
+}
+
+footer{
+    text-align: center;
 }

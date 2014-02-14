@@ -11,7 +11,7 @@ class TreeView {
         include 'views/html/footer.inc';
     }
 
-    public function showLastTree($rows = '') {
+    public function showLastTree($rows) {
         include 'views/html/latest-tree.inc';
     }
 
