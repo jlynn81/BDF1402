@@ -19,7 +19,7 @@
 <body>
 
 <h1><?php echo $pageTitle; ?></h1>
-<p>Plant Information Database</p>
-<h2>Trees<a href="latest-tree.inc"></a></h2>
-<h2>Flowers</h2>
+<p id="intro">Plant Information Database</p>
+<h2><a href="views/html/latest-tree.inc">Trees</a></h2>
+<h3><a href="views/html/latest-flower.inc">Flowers</a></h3>
 

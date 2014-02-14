@@ -12,3 +12,11 @@ body{
 h1{
     font-size: 40pt;
 }
+h2 h3{
+    font-size: 24pt;
+}
+
+#intro{
+    font-size: 18pt;
+    
+}
