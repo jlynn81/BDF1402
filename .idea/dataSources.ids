@@ -26,7 +26,7 @@
       <column name="DESCRIPTION" sqlType="VARCHAR" length="32" precision="0" nullable="true" jdbcType="12"/>
       <primary-key name="PRIMARY" columns="TREEID"/>
     </table>
-    <table name="USERINFO" schema="" catalog="BDF1402" type="TABLE">
+    <table name="userInfo" schema="" catalog="BDF1402" type="TABLE">
       <column name="id" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
       <column name="email" sqlType="VARCHAR" length="100" precision="0" nullable="true" jdbcType="12"/>
       <column name="phone" sqlType="VARCHAR" length="100" precision="0" nullable="true" jdbcType="12"/>
@@ -34,16 +34,18 @@
       <column name="username" sqlType="VARCHAR" length="100" precision="0" nullable="true" jdbcType="12"/>
       <primary-key name="PRIMARY" columns="id"/>
     </table>
-    <table name="USERS" schema="" catalog="BDF1402" type="TABLE">
-      <column name="userId" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
-      <column name="firstName" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
-      <column name="lastName" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
-      <column name="pass" sqlType="VARCHAR" length="10" precision="0" nullable="true" jdbcType="12"/>
-      <primary-key name="PRIMARY" columns="userId"/>
-    </table>
     <table name="userType" schema="" catalog="BDF1402" type="TABLE">
       <column name="id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
       <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="users" schema="" catalog="BDF1402" type="TABLE">
+      <column name="user_id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="user_name" sqlType="VARCHAR" length="20" precision="0" nullable="false" jdbcType="12" def="Jyc="/>
+      <column name="user_password" sqlType="VARCHAR" length="20" precision="0" nullable="false" jdbcType="12" def="Jyc="/>
+      <column name="user_fullname" sqlType="VARCHAR" length="40" precision="0" nullable="false" jdbcType="12" def="Jyc="/>
+      <primary-key name="PRIMARY" columns="user_id"/>
+      <index name="UX_name" unique="true" columns="user_name"/>
+      <index name="UX_name_password" unique="true" columns="user_password,user_name"/>
     </table>
     <table name="usersNotNormalized" schema="" catalog="BDF1402" type="TABLE">
       <column name="userId" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
