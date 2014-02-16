@@ -8,4 +8,13 @@
 
 class AuthView {
 
+    public function show($temp) {
+
+        $templatePath = "views/${temp}.inc";
+        if (file_exists($templatePath)){
+            include $templatePath;
+        }
+
+    }
+
 } 
