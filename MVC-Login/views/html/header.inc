@@ -26,7 +26,16 @@
 <div id="trees"><?php echo  "<a href='views/html/latest-tree.inc?action=index.php'>Trees</a>"; ?></div>
 <div id="flowers"><?php echo "<a href='views/html/latest-flower.inc?action=index.php'>Flowers</a>"; ?></div>
 
-<div id="form"><?php echo "<a href='views/html/form.inc?action=index.php'>Login</a>"; ?></div>
+<p>Please login with a Username and Password</p>
+
+<form action="<?php echo $pageTitle; ?>" method="post">
+    <label for="username">Username</label>
+    <input type="text" name="username" id="username" maxlength="20" size="20"/><br/>
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" maxlength="20" size="20"/><br />
+    <input type="submit"/>
+</form>
+
 
 
 

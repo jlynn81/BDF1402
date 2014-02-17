@@ -7,7 +7,7 @@ foreach($data as $d){
     echo $d["email"];
     echo " <b>Phone:</b> ";
     echo $d["phone"];
-    echo " <b>Address:</b> ";
+    echo "<b>Address:</b>";
     echo $d["address"];
     echo "<br>";
 }
