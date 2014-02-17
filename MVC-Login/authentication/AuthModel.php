@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: jlynn81
- * Date: 2/16/14
- * Time: 11:12 AM
- */
+
 
 class AuthModel {
 
@@ -15,7 +10,7 @@ class AuthModel {
         $this->db->setAttribute(\PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION);
     }
 
-//Call the login function for the application
+//Call for the login function for the application
     public function retrieveUserByNamePass($name, $pass) {
         //prepared SQL statement with parameters passed within
         $statement = $this->db->prepare("

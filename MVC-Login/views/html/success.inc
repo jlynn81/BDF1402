@@ -1,3 +1,5 @@
-<h1>Success!!</h1>
-<p>Welcome, <?php htmlentities($user['fullname']); ?></p>
+<h1>Plant Information</h1>
+<p>Welcome, <?php echo htmlentities($data['fullname']); ?></p>
+
+
 <p><a href="logout.php">Log Out</a></p>

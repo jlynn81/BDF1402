@@ -14,19 +14,19 @@
 <!--    Web font for site-->
     <link href='http://fonts.googleapis.com/css?family=Ledger' rel='stylesheet' type='text/css'>
 
-    <title><?php echo $pageTitle; ?></title>
+    <title>Plants</title>
 
 </header>
 
 <body>
 
-<h1><?php echo $pageTitle; ?></h1>
+<h1>Plants</h1>
 <p id="intro">Plant Information Database</p>
 
 <div id="trees"><?php echo  "<a href='views/html/latest-tree.inc?action=index.php'>Trees</a>"; ?></div>
 <div id="flowers"><?php echo "<a href='views/html/latest-flower.inc?action=index.php'>Flowers</a>"; ?></div>
 
-
+<div id="form"><?php echo "<a href='views/html/form.inc?action=index.php'>Login</a>"; ?></div>
 
 
 
