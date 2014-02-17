@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: jlynn81
- * Date: 2/16/14
- * Time: 4:35 PM
- */
 
 class DB {
 
@@ -23,4 +17,5 @@ class DB {
         }
     }
 
-} 
+}
+?>

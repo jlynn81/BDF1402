@@ -1,6 +1,6 @@
 <?php
 
-//echo "<center>";
+echo "<center>";
 foreach($data as $d){
 
     echo " <b>Email:</b> ";
@@ -11,5 +11,5 @@ foreach($data as $d){
     echo $d["address"];
     echo "<br>";
 }
-//echo "</center>";
+echo "</center>";
 ?>

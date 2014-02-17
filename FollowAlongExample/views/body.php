@@ -1,7 +1,7 @@
 <?php
 //Pulling $data from viewModel
 
-//echo "<center>";
+echo "<center>";
 foreach($data as $d){
 
     echo $d["first"];
@@ -11,4 +11,4 @@ foreach($data as $d){
     echo "<br>";
 }
 
-//echo "</center>";
+echo "</center>";
