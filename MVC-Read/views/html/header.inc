@@ -26,6 +26,14 @@
 <div id="flowers"><?php echo "<a href='views/latest-flower.inc?action=index.php'>Flowers</a>"; ?></div>
 
 
+<?php
+//if($_SESSION['success'] =1){
+//    echo "<a href='/index.php?action=logout'>Log Out</a>";
+//}else{
+//    "<a href='index.php?action=login'>Login</a>";
+//}
+//?>
+
 
 
 
