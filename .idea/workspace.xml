@@ -26,28 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="header.inc" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="header.inc" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FollowAlongExample/views/header.inc">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="30" selection-start="176" selection-end="176" vertical-scroll-proportion="0.11904762" vertical-offset="0" max-vertical-offset="672">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loginform.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FollowAlongExample/loginform.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="58" selection-start="120" selection-end="120" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="192">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FollowAlongExample/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="31" selection-start="55" selection-end="55" vertical-scroll-proportion="-1.92" vertical-offset="0" max-vertical-offset="1136">
+            <state line="2" column="46" selection-start="96" selection-end="96" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="352">
               <folding />
             </state>
           </provider>
@@ -62,14 +44,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contactsModel.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="contactsModel.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FollowAlongExample/models/contactsModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="34" selection-start="1017" selection-end="1017" vertical-scroll-proportion="-24.32" vertical-offset="112" max-vertical-offset="864">
+            <state line="9" column="40" selection-start="170" selection-end="170" vertical-scroll-proportion="-0.11904762" vertical-offset="224" max-vertical-offset="896">
               <folding>
-                <marker date="1392595309000" expanded="true" signature="146:165" placeholder="select * fro..users..." />
-                <marker date="1392595309000" expanded="true" signature="324:365" placeholder="select * fro..user_details..." />
-                <marker date="1392595309000" expanded="true" signature="562:621" placeholder="select * fro..users..." />
+                <marker date="1392598245000" expanded="true" signature="146:153" placeholder="select * fro..users..." />
+                <marker date="1392598245000" expanded="true" signature="146:299" placeholder="select u.fir..users..." />
+                <marker date="1392598245000" expanded="true" signature="458:499" placeholder="select * fro..user_details..." />
+                <marker date="1392598245000" expanded="true" signature="696:755" placeholder="select * fro..users..." />
               </folding>
             </state>
           </provider>
@@ -136,13 +119,13 @@
         <option value="$PROJECT_DIR$/MVC-Login/authentication/auth.php" />
         <option value="$PROJECT_DIR$/MVC-Login/views/form.inc" />
         <option value="$PROJECT_DIR$/MVC-Login/views/html/loginform.html" />
-        <option value="$PROJECT_DIR$/FollowAlongExample/index.php" />
         <option value="$PROJECT_DIR$/FollowAlongExample/models/protected.php" />
         <option value="$PROJECT_DIR$/FollowAlongExample/views/protected.php" />
-        <option value="$PROJECT_DIR$/FollowAlongExample/models/contactsModel.php" />
         <option value="$PROJECT_DIR$/MVC-Login/views/html/header.inc" />
         <option value="$PROJECT_DIR$/FollowAlongExample/loginform.html" />
         <option value="$PROJECT_DIR$/FollowAlongExample/views/header.inc" />
+        <option value="$PROJECT_DIR$/FollowAlongExample/index.php" />
+        <option value="$PROJECT_DIR$/FollowAlongExample/models/contactsModel.php" />
       </list>
     </option>
   </component>
@@ -196,6 +179,52 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BDF1402" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BDF1402" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MVC-Read" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BDF1402" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BDF1402" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MVC-Read" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BDF1402" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BDF1402" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FollowAlongExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -217,11 +246,11 @@
       <recent name="$PROJECT_DIR$/MVC-Read/Plants" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/FollowAlongExample/views" />
       <recent name="$PROJECT_DIR$/FollowAlongExample/models" />
       <recent name="$PROJECT_DIR$/FollowAlongExample" />
       <recent name="$PROJECT_DIR$/MVC-Login/views/html" />
       <recent name="$PROJECT_DIR$/MVC-Read" />
-      <recent name="$PROJECT_DIR$/MVC-Read/views/html" />
     </key>
   </component>
   <component name="RunManager" selected="PHPUnit on Server.FollowAlongExample on server">
@@ -530,9 +559,9 @@
         <state line="12" column="22" selection-start="262" selection-end="262" vertical-scroll-proportion="0.28656715" vertical-offset="0" max-vertical-offset="670" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FollowAlongExample/models/protected.php">
+    <entry file="file://$PROJECT_DIR$/MVC-Login/views/html/header.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="34" selection-start="81" selection-end="81" vertical-scroll-proportion="0.11904762" vertical-offset="0" max-vertical-offset="672">
+        <state line="28" column="0" selection-start="879" selection-end="879" vertical-scroll-proportion="0.6666667" vertical-offset="0" max-vertical-offset="672">
           <folding />
         </state>
       </provider>
@@ -544,42 +573,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FollowAlongExample/models/contactsModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="34" selection-start="1017" selection-end="1017" vertical-scroll-proportion="-24.32" vertical-offset="112" max-vertical-offset="864">
-          <folding>
-            <marker date="1392595309000" expanded="true" signature="146:165" placeholder="select * fro..users..." />
-            <marker date="1392595309000" expanded="true" signature="324:365" placeholder="select * fro..user_details..." />
-            <marker date="1392595309000" expanded="true" signature="562:621" placeholder="select * fro..users..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MVC-Login/views/html/header.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="879" selection-end="879" vertical-scroll-proportion="0.6666667" vertical-offset="0" max-vertical-offset="672">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FollowAlongExample/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="31" selection-start="55" selection-end="55" vertical-scroll-proportion="-1.92" vertical-offset="0" max-vertical-offset="1136">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FollowAlongExample/loginform.html">
+    <entry file="file://$PROJECT_DIR$/FollowAlongExample/views/loginform.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="58" selection-start="120" selection-end="120" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="192">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FollowAlongExample/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="22" selection-start="164" selection-end="164" vertical-scroll-proportion="0.21428572" vertical-offset="0" max-vertical-offset="1120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FollowAlongExample/models/protector.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="34" selection-start="81" selection-end="81" vertical-scroll-proportion="0.11904762" vertical-offset="0" max-vertical-offset="672">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FollowAlongExample/views/header.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="30" selection-start="176" selection-end="176" vertical-scroll-proportion="0.11904762" vertical-offset="0" max-vertical-offset="672">
+        <state line="2" column="46" selection-start="96" selection-end="96" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="352">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FollowAlongExample/models/contactsModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="40" selection-start="170" selection-end="170" vertical-scroll-proportion="-0.11904762" vertical-offset="224" max-vertical-offset="896">
+          <folding>
+            <marker date="1392598245000" expanded="true" signature="146:153" placeholder="select * fro..users..." />
+            <marker date="1392598245000" expanded="true" signature="146:299" placeholder="select u.fir..users..." />
+            <marker date="1392598245000" expanded="true" signature="458:499" placeholder="select * fro..user_details..." />
+            <marker date="1392598245000" expanded="true" signature="696:755" placeholder="select * fro..users..." />
+          </folding>
         </state>
       </provider>
     </entry>

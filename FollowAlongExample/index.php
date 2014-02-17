@@ -7,7 +7,7 @@ include 'models/protector.php';
 include 'models/viewModel.php';
 include 'models/contactsModel.php';
 
-$pagename = 'index';
+$pagename = 'protected';
 
 $views = new viewModel();
 $contacts = new contactsModel();
@@ -26,13 +26,12 @@ if(!empty($_GET["action"])){
         $result = $contacts->getAll();
         $views->getView("views/body.php",$result);
 
-    }
-    if($_GET["action"]=="details"){
+    }if($_GET["action"] == "details"){
 
         $result = $contacts->getOne($_GET["id"]);
         $views->getView("views/details.php",$result);
-    }
-    if($_GET["action"]=="login"){
+
+    }if($_GET["action"]=="login"){
 
         $views->getView("views/loginform.html");
     }
@@ -41,7 +40,7 @@ if(!empty($_GET["action"])){
         $result = $contacts->checkLogin($_POST["un"], $_POST["password"]);
 
         if(count($result)>0){
-            header("location: protected.php");
+            header("location: protector.php");
 
         }else{
 

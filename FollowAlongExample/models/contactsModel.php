@@ -7,7 +7,9 @@ class contactsModel extends DB{
     }
 
     public function getAll(){
-        $sql = "select * from users";
+        $sql = "select u.first, u.last, u.id, ud.email, ud.phone, ud.address, ud.userid
+                from
+                users u join user_details ud on u.id = ud.id";
         $st = $this->db->prepare($sql);
         $st->execute();
 
