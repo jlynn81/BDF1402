@@ -4,8 +4,6 @@ require_once "model/db.php";
 require_once "model/TreeModel.php";
 require_once "model/TreeView.php";
 
-//require_once "authentication/auth.php";
-
 session_start();
 
 $model = new TreeModel(DSN, USER, PASS);

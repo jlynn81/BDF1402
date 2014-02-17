@@ -35,10 +35,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="auth.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="auth.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MVC-Login/authentication/auth.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="22" selection-start="29" selection-end="29" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="672">
+            <state line="2" column="20" selection-start="27" selection-end="27" vertical-scroll-proportion="0.047761194" vertical-offset="0" max-vertical-offset="672">
               <folding />
             </state>
           </provider>
@@ -71,10 +71,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MVC-Login/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="16" selection-start="167" selection-end="167" vertical-scroll-proportion="0.19104478" vertical-offset="0" max-vertical-offset="880">
+            <state line="4" column="34" selection-start="106" selection-end="106" vertical-scroll-proportion="-2.56" vertical-offset="0" max-vertical-offset="848">
               <folding />
             </state>
           </provider>
@@ -144,11 +144,11 @@
         <option value="$PROJECT_DIR$/Login2/models/protector.php" />
         <option value="$PROJECT_DIR$/Login2/index.php" />
         <option value="$PROJECT_DIR$/MVC-Login/model/TreeModel.php" />
-        <option value="$PROJECT_DIR$/MVC-Login/authentication/auth.php" />
         <option value="$PROJECT_DIR$/MVC-Login/authentication/AuthView.php" />
         <option value="$PROJECT_DIR$/MVC-Login/authentication/AuthModel.php" />
         <option value="$PROJECT_DIR$/MVC-Login/views/html/header.inc" />
         <option value="$PROJECT_DIR$/MVC-Login/index.php" />
+        <option value="$PROJECT_DIR$/MVC-Login/authentication/auth.php" />
       </list>
     </option>
   </component>
@@ -637,27 +637,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MVC-Login/authentication/logout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="5" selection-start="150" selection-end="150" vertical-scroll-proportion="-6.4" vertical-offset="0" max-vertical-offset="256">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MVC-Login/authentication/AuthModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="6" selection-start="593" selection-end="593" vertical-scroll-proportion="-12.16" vertical-offset="0" max-vertical-offset="624">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MVC-Login/views/html/form.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="647">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MVC-Login/views/html/header.inc">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="48" selection-start="889" selection-end="889" vertical-scroll-proportion="-12.72" vertical-offset="130" max-vertical-offset="800">
@@ -690,16 +669,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MVC-Login/authentication/auth.php">
+    <entry file="file://$PROJECT_DIR$/MVC-Login/authentication/AuthModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="22" selection-start="29" selection-end="29" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="672">
+        <state line="19" column="6" selection-start="593" selection-end="593" vertical-scroll-proportion="-12.16" vertical-offset="0" max-vertical-offset="624">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MVC-Login/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="16" selection-start="167" selection-end="167" vertical-scroll-proportion="0.19104478" vertical-offset="0" max-vertical-offset="880">
+        <state line="4" column="34" selection-start="106" selection-end="106" vertical-scroll-proportion="-2.56" vertical-offset="0" max-vertical-offset="848">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVC-Login/authentication/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="5" selection-start="150" selection-end="150" vertical-scroll-proportion="-6.4" vertical-offset="0" max-vertical-offset="256">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVC-Login/views/html/form.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="7" selection-start="404" selection-end="404" vertical-scroll-proportion="0.17310664" vertical-offset="0" max-vertical-offset="647">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVC-Login/authentication/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="20" selection-start="27" selection-end="27" vertical-scroll-proportion="0.047761194" vertical-offset="0" max-vertical-offset="672">
           <folding />
         </state>
       </provider>
