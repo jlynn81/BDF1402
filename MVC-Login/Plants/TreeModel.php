@@ -39,7 +39,7 @@ class TreeModel {
         }
         //if the execution fails a PDO execution will generate
         catch (\PDOException $e) {
-            echo "Database for Plants was not queried.";
+            echo "Database for plantModel was not queried.";
             var_dump($e);
         }
 
@@ -63,7 +63,7 @@ class TreeModel {
             }
         }
         catch (\PDOException $e) {
-            echo "Database for Plants was not queried.";
+            echo "Database for plantModel was not queried.";
             var_dump($e);
         }
         return array();
