@@ -26,9 +26,6 @@ h1{
     font-size: 16pt;
 
 }
-h2, h3{
-    font-size: 20pt;
-}
 
 li{
     list-style: none;
@@ -36,7 +33,7 @@ li{
 }
 
 a{
-    font-size: 24pt;
+    font-size: 12pt;
     display: block;
 }
 

@@ -35,10 +35,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.inc" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="header.inc" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MVC-Read2/views/header.inc">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="7" selection-start="605" selection-end="605" vertical-scroll-proportion="0.5731343" vertical-offset="0" max-vertical-offset="670">
+            <state line="24" column="7" selection-start="605" selection-end="605" vertical-scroll-proportion="-15.36" vertical-offset="0" max-vertical-offset="480">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MVC-Login/CSS/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="0" selection-start="1402" selection-end="1402" vertical-scroll-proportion="0.6480938" vertical-offset="86" max-vertical-offset="768">
               <folding />
             </state>
           </provider>
@@ -62,7 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/FollowAlongExample/models/protected.php" />
         <option value="$PROJECT_DIR$/FollowAlongExample/views/protected.php" />
         <option value="$PROJECT_DIR$/FollowAlongExample/loginform.html" />
         <option value="$PROJECT_DIR$/FollowAlongExample/views/header.inc" />
@@ -113,6 +121,7 @@
         <option value="$PROJECT_DIR$/MVC-Read2/views/footer.inc" />
         <option value="$PROJECT_DIR$/MVC-Read2/index.php" />
         <option value="$PROJECT_DIR$/MVC-Read2/views/header.inc" />
+        <option value="$PROJECT_DIR$/MVC-Login/CSS/styles.css" />
       </list>
     </option>
   </component>
@@ -240,6 +249,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="MVC-Login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BDF1402" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BDF1402" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="FollowAlongExample" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -353,7 +380,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="815" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918397" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918397" sideWeight="0.4995752" order="9" side_tool="false" content_ui="tabs" />
@@ -366,7 +393,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918397" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918397" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14520743" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14520743" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -406,44 +433,6 @@
     <entry file="file://$PROJECT_DIR$/MVC-Login/model/db.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MVC-Read/views/html/latest-flower.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="36" selection-start="181" selection-end="181" vertical-scroll-proportion="-5.12" vertical-offset="0" max-vertical-offset="304">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MVC-Read/views/html/latest-tree.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.02472952" vertical-offset="0" max-vertical-offset="647">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MVC-Read/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="4" selection-start="150" selection-end="155" vertical-scroll-proportion="0.19104478" vertical-offset="0" max-vertical-offset="670">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MVC-Read/model/TreeModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="307" selection-end="307" vertical-scroll-proportion="-10.88" vertical-offset="0" max-vertical-offset="1232">
-          <folding>
-            <marker date="1392601877000" expanded="true" signature="-1:-1" placeholder="SELECT Name,..TREES..." />
-            <marker date="1392601877000" expanded="true" signature="-1:-1" placeholder="SELECT Name,..FLOWERS..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MVC-Read/model/TreeView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="38" selection-start="252" selection-end="252" vertical-scroll-proportion="0.31044775" vertical-offset="0" max-vertical-offset="670">
           <folding />
         </state>
       </provider>
@@ -688,30 +677,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MVC-Read/views/html/header.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="6" selection-start="0" selection-end="582" vertical-scroll-proportion="0.4870624" vertical-offset="0" max-vertical-offset="657">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MVC-Read/views/html/footer.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="112" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="224">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MVC-Read2/views/footer.inc">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="7" selection-start="112" selection-end="112" vertical-scroll-proportion="0.19482496" vertical-offset="0" max-vertical-offset="657">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MVC-Read/model/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="113" selection-end="113" vertical-scroll-proportion="0.19104478" vertical-offset="0" max-vertical-offset="670">
           <folding />
         </state>
       </provider>
@@ -742,7 +710,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MVC-Read2/views/header.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="7" selection-start="605" selection-end="605" vertical-scroll-proportion="0.5731343" vertical-offset="0" max-vertical-offset="670">
+        <state line="24" column="7" selection-start="605" selection-end="605" vertical-scroll-proportion="-15.36" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVC-Login/CSS/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="1402" selection-end="1402" vertical-scroll-proportion="0.6480938" vertical-offset="86" max-vertical-offset="768">
           <folding />
         </state>
       </provider>
