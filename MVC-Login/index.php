@@ -1,52 +1,31 @@
 <?php
-session_start();
 
-require_once "model/db.php";
-require_once "model/TreeModel.php";
-require_once "model/TreeView.php";
-//require_once "authentication/auth.php";
-//require_once "authentication/AuthModel.php";
-//require_once "authentication/AuthView.php";
+//my index page
+include 'models/treeViewModel.php';
+include 'models/treeModel.php';
 
-//$pagename = 'protected';
+$pagename = 'index';
 
-$model = new TreeModel(DSN, USER, PASS);
-$views = new TreeView();
+$views = new treeViewModel();
+$trees = new treeModel();
 
-//displays the header information for the site
-$views->showTreeHeader('Plants');
+$views->getView("views/header.inc");
 
-//displays the most current tree and flower data, along with showing the login form
-$views->showLastTree($model->getTreeData());
-$views->showLastFlower($model->getFlowerData());
-$views->showLoginForm($model->retrieveUserByNamPass(name, pass));
+if(!empty($_GET["action"])){
+    if($_GET["action"]=="home"){
 
-//displays the footer information
-$views->showTreeFooter();
+        $result = $trees->getAll();
+        $views->getView("views/tree.php", $result);
 
-$userData = array();
-$template = 'login';
+    }if($_GET["action"]=="tree details"){
 
-if(!empty($_SESSION['userData'])) {
-    $userData = $_SESSION['userData'];
-    $template = 'Welcome';
-}elseif (!empty($username) && !empty($password)){
-
-    $userData = $model->retrieveUserByNamePass($username, $password);
-    if(is_array($userData)){
-
-        $template = 'welcome';
-        $_SESSION['userData'] = $userData;
-    }else{
-        $userData['error'] = 'Invalid username/password.';
+        $result = $trees->getOne($_GET["id"]);
+        $views->getView("views/tree_details.php", $result);
     }
+}else{
+    $result = $trees->getAll();
+    $views->getView("views/tree.php", $result);
 }
 
-$views->show('header');
-$views->show($contentPage, $user);
-$views->show('footer');
-
-
-
-
-
+//Display Footer information
+$views->getView("views/footer.inc");

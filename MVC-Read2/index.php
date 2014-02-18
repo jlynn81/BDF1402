@@ -17,7 +17,7 @@ if(!empty($_GET["action"])){
         $result = $trees->getAll();
         $views->getView("views/tree.php", $result);
 
-    }if($_GET["action"]=="tree_details"){
+    }if($_GET["action"]=="tree details"){
 
         $result = $trees->getOne($_GET["id"]);
         $views->getView("views/tree_details.php", $result);
