@@ -24,12 +24,12 @@ if(!empty($_GET["action"])){
     if($_GET["action"]=="home"){
 
         $result = $contacts->getAll();
-        $views->getView("views/body.php",$result);
+        $views->getView("views/tree.php",$result);
 
     }if($_GET["action"] == "details"){
 
         $result = $contacts->getOne($_GET["id"]);
-        $views->getView("views/details.php",$result);
+        $views->getView("views/tree_details.php",$result);
 
     }if($_GET["action"]=="login"){
 
@@ -58,7 +58,7 @@ if(!empty($_GET["action"])){
 }else{
 
     $result = $contacts->getAll();
-    $views->getView("views/body.php",$result);
+    $views->getView("views/tree.php",$result);
 }
 
 //Display Footer

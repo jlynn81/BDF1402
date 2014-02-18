@@ -19,3 +19,7 @@
 </header>
 
 <body>
+
+<h1>Tree Types</h1>
+
+<p>Welcome to a selection of different trees</p>

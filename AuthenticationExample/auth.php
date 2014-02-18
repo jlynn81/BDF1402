@@ -33,5 +33,5 @@ if(!empty($username) && !empty($password)){
 }
 
 $views->show('header');
-$views->show($contentPage, $user);
+$views->show('form');
 $views->show('footer');

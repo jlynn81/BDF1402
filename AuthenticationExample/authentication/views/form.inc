@@ -1,5 +1,7 @@
+<h1> Plant </h1>
+
 <p>Please log in with your username and password</p>
-<form action="<?php echo $pageTitle; ?>" method="post">
+<form action="?" method="post">
     <label for="username">Username</label>
     <input type="text" name="username" id="username" maxlength="20" size="20"/><br/>
     <label for="password">Password</label>

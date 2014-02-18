@@ -4,9 +4,9 @@ session_start();
 require_once "model/db.php";
 require_once "model/TreeModel.php";
 require_once "model/TreeView.php";
-require_once "authentication/auth.php";
-require_once "authentication/AuthModel.php";
-require_once "authentication/AuthView.php";
+//require_once "authentication/auth.php";
+//require_once "authentication/AuthModel.php";
+//require_once "authentication/AuthView.php";
 
 //$pagename = 'protected';
 

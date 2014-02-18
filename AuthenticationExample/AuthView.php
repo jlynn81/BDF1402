@@ -3,9 +3,9 @@
 
 class AuthView {
 
-    public function show($temp, $data = array()) {
+    public function show($template) {
 
-        $templatePath = "views/${temp}.inc";
+        $templatePath = "views/${template}.inc";
         if (file_exists($templatePath)){
             include $templatePath;
         }
