@@ -6,17 +6,17 @@ require_once "model/TreeView.php";
 
 $model = new TreeModel(DSN, USER, PASS);
 
-$view = new TreeView();
+$views = new TreeView();
 
 //displays the header information for the site
-$view->showTreeHeader('Plants');
+$views->showTreeHeader('Plants');
 
 //displays the most current tree and flower data
-$view->showLastTree($model->getTreeData());
-$view->showLastFlower($model->getFlowerData());
+$views->showLastTree($model->getTreeData());
+$views->showLastFlower($model->getFlowerData());
 
 //displays the footer information
-$view->showTreeFooter();
+$views->showTreeFooter();
 
 
 ?>

@@ -26,46 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="header.inc" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="header.inc" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MVC-Login/views/html/header.inc">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="48" selection-start="889" selection-end="889" vertical-scroll-proportion="-12.72" vertical-offset="130" max-vertical-offset="800">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="auth.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MVC-Login/authentication/auth.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="672">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthModel.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MVC-Login/authentication/AuthModel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="6" selection-start="593" selection-end="593" vertical-scroll-proportion="-12.16" vertical-offset="0" max-vertical-offset="624">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthView.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MVC-Login/authentication/AuthView.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="1" selection-start="218" selection-end="218" vertical-scroll-proportion="-8.96" vertical-offset="0" max-vertical-offset="320">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logout.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MVC-Login/authentication/logout.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="5" selection-start="150" selection-end="150" vertical-scroll-proportion="-6.4" vertical-offset="0" max-vertical-offset="256">
+            <state line="25" column="34" selection-start="661" selection-end="661" vertical-scroll-proportion="0.4402985" vertical-offset="105" max-vertical-offset="832">
               <folding />
             </state>
           </provider>
@@ -74,8 +38,40 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MVC-Login/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="34" selection-start="106" selection-end="106" vertical-scroll-proportion="-2.56" vertical-offset="0" max-vertical-offset="848">
+            <state line="18" column="83" selection-start="514" selection-end="514" vertical-scroll-proportion="-11.52" vertical-offset="0" max-vertical-offset="928">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeView.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MVC-Login/model/TreeView.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="38" selection-start="486" selection-end="486" vertical-scroll-proportion="-14.08" vertical-offset="0" max-vertical-offset="512">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeModel.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MVC-Login/model/TreeModel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="25" selection-start="295" selection-end="295" vertical-scroll-proportion="13.52" vertical-offset="562" max-vertical-offset="1232">
+              <folding>
+                <marker date="1392698334000" expanded="true" signature="482:596" placeholder="SELECT Name,..TREES..." />
+                <marker date="1392698334000" expanded="true" signature="1156:1275" placeholder="SELECT Name,..FLOWERS..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthModel.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MVC-Login/authentication/AuthModel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="13" selection-start="974" selection-end="974" vertical-scroll-proportion="-17.92" vertical-offset="0" max-vertical-offset="624">
+              <folding>
+                <marker date="1392696942000" expanded="true" signature="459:652" placeholder="SELECT user_..users..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,7 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/MVC-Read/Plants/FlowerView.php" />
         <option value="$PROJECT_DIR$/MVC-Read/views/latest-flower.php" />
         <option value="$PROJECT_DIR$/MVC-Read/views/latest-tree.php" />
         <option value="$PROJECT_DIR$/MVC-Read/Plants/FlowerModel.php" />
@@ -127,9 +122,6 @@
         <option value="$PROJECT_DIR$/MVC-Read/model/TreeModel.php" />
         <option value="$PROJECT_DIR$/MVC-Login/views/html/success.inc" />
         <option value="$PROJECT_DIR$/MVC-Login/authentication/logout.php" />
-        <option value="$PROJECT_DIR$/MVC-Read/index.php" />
-        <option value="$PROJECT_DIR$/MVC-Login/model/TreeView.php" />
-        <option value="$PROJECT_DIR$/MVC-Read/views/html/header.inc" />
         <option value="$PROJECT_DIR$/Login2/views/treebody.php" />
         <option value="$PROJECT_DIR$/Login2/views/flowerbody.php" />
         <option value="$PROJECT_DIR$/Login2/views/footer.inc" />
@@ -143,19 +135,24 @@
         <option value="$PROJECT_DIR$/Login2/models/plantModel.php" />
         <option value="$PROJECT_DIR$/Login2/models/protector.php" />
         <option value="$PROJECT_DIR$/Login2/index.php" />
-        <option value="$PROJECT_DIR$/MVC-Login/model/TreeModel.php" />
         <option value="$PROJECT_DIR$/MVC-Login/authentication/AuthView.php" />
-        <option value="$PROJECT_DIR$/MVC-Login/authentication/AuthModel.php" />
-        <option value="$PROJECT_DIR$/MVC-Login/views/html/header.inc" />
-        <option value="$PROJECT_DIR$/MVC-Login/index.php" />
+        <option value="$PROJECT_DIR$/MVC-Login/views/html/latest-flower_details.inc" />
         <option value="$PROJECT_DIR$/MVC-Login/authentication/auth.php" />
+        <option value="$PROJECT_DIR$/MVC-Login/authentication/AuthModel.php" />
+        <option value="$PROJECT_DIR$/MVC-Read/index.php" />
+        <option value="$PROJECT_DIR$/MVC-Read/views/html/header.inc" />
+        <option value="$PROJECT_DIR$/MVC-Login/model/TreeModel.php" />
+        <option value="$PROJECT_DIR$/MVC-Login/model/TreeView.php" />
+        <option value="$PROJECT_DIR$/MVC-Login/index.php" />
+        <option value="$PROJECT_DIR$/MVC-Login/views/html/header.inc" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="MAMP PHP 5.5.3" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1332" />
+    <option name="x" value="886" />
+    <option name="y" value="-1053" />
+    <option name="width" value="1751" />
     <option name="height" value="815" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -199,6 +196,78 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="BDF1402" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BDF1402" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BDF1402" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MVC-Login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BDF1402" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BDF1402" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MVC-Login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BDF1402" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BDF1402" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MVC-Login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BDF1402" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BDF1402" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MVC-Login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="authentication" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -308,12 +377,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1332" height="815" extended-state="1" />
+    <frame x="886" y="-1053" width="1751" height="815" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918397" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918397" sideWeight="0.4995752" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15426357" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.07840843" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32780084" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918397" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -322,7 +391,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918397" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918397" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17286822" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16091281" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -371,78 +440,6 @@
         <state line="43" column="22" selection-start="1511" selection-end="1511" vertical-scroll-proportion="0.92716235" vertical-offset="77" max-vertical-offset="816" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FollowAlongExample/models/protector.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="34" selection-start="81" selection-end="81" vertical-scroll-proportion="0.11904762" vertical-offset="0" max-vertical-offset="672">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MVC-Login/views/html/footer.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="674">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MVC-Read/model/TreeView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="38" selection-start="252" selection-end="252" vertical-scroll-proportion="-8.32" vertical-offset="0" max-vertical-offset="448">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MVC-Read/views/html/latest-flower.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="36" selection-start="181" selection-end="181" vertical-scroll-proportion="-5.12" vertical-offset="0" max-vertical-offset="304">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MVC-Read/views/html/latest-tree.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.64" vertical-offset="0" max-vertical-offset="400">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MVC-Read/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="29" selection-start="251" selection-end="251" vertical-scroll-proportion="0.27118644" vertical-offset="0" max-vertical-offset="649">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MVC-Read/model/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="113" selection-end="113" vertical-scroll-proportion="0.19722651" vertical-offset="0" max-vertical-offset="649">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MVC-Read/views/html/footer.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="9" selection-start="103" selection-end="103" vertical-scroll-proportion="0.14285715" vertical-offset="0" max-vertical-offset="672">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MVC-Read/views/html/header.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="4" selection-start="1036" selection-end="1036" vertical-scroll-proportion="-21.76" vertical-offset="0" max-vertical-offset="720">
-          <folding>
-            <element signature="e#875#905#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MVC-Login/model/TreeView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="5" selection-start="597" selection-end="597" vertical-scroll-proportion="-17.92" vertical-offset="0" max-vertical-offset="592">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/4864251c/923422a1-ea3e-4454-96d0-608f549dfca9/BDF1402..TREES">
       <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
         <state />
@@ -453,51 +450,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FollowAlongExample/views/details.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="23" selection-start="198" selection-end="198" vertical-scroll-proportion="0.23880596" vertical-offset="0" max-vertical-offset="670">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MVC-Read/model/TreeModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="62" selection-start="903" selection-end="903" vertical-scroll-proportion="0.8597015" vertical-offset="48" max-vertical-offset="1232">
-          <folding>
-            <marker date="1392601877000" expanded="true" signature="-1:-1" placeholder="SELECT Name,..TREES..." />
-            <marker date="1392601877000" expanded="true" signature="-1:-1" placeholder="SELECT Name,..FLOWERS..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FollowAlongExample/models/DB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.023880597" vertical-offset="0" max-vertical-offset="670">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FollowAlongExample/models/contactsModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="31" selection-start="615" selection-end="615" vertical-scroll-proportion="0.5731343" vertical-offset="0" max-vertical-offset="896">
-          <folding>
-            <marker date="1392598245000" expanded="true" signature="-1:-1" placeholder="select u.fir..users..." />
-            <marker date="1392598245000" expanded="true" signature="-1:-1" placeholder="select * fro..user_details..." />
-            <marker date="1392598245000" expanded="true" signature="-1:-1" placeholder="select * fro..users..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FollowAlongExample/views/protected.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="10" selection-start="306" selection-end="306" vertical-scroll-proportion="0.45373136" vertical-offset="0" max-vertical-offset="670">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FollowAlongExample/models/viewModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="161" selection-end="161" vertical-scroll-proportion="-7.68" vertical-offset="0" max-vertical-offset="304">
           <folding />
         </state>
       </provider>
@@ -516,13 +471,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MVC-Login/views/html/loginform.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="220" selection-end="220" vertical-scroll-proportion="0.09891808" vertical-offset="0" max-vertical-offset="647">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FollowAlongExample/views/loginform.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="58" selection-start="120" selection-end="120" vertical-scroll-proportion="0.04945904" vertical-offset="0" max-vertical-offset="647">
@@ -530,30 +478,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FollowAlongExample/views/header.inc">
+    <entry file="file://$PROJECT_DIR$/FollowAlongExample/views/details.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="432" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="352">
+        <state line="10" column="23" selection-start="198" selection-end="198" vertical-scroll-proportion="0.24729522" vertical-offset="0" max-vertical-offset="647">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MVC-Login/views/html/latest-flower.inc">
+    <entry file="file://$PROJECT_DIR$/FollowAlongExample/models/DB.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="1" selection-start="258" selection-end="258" vertical-scroll-proportion="0.28656715" vertical-offset="0" max-vertical-offset="670">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.64" vertical-offset="0" max-vertical-offset="416">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MVC-Login/views/html/latest-tree.inc">
+    <entry file="file://$PROJECT_DIR$/FollowAlongExample/models/protector.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="674">
+        <state line="5" column="34" selection-start="81" selection-end="81" vertical-scroll-proportion="-3.2" vertical-offset="0" max-vertical-offset="192">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FollowAlongExample/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="46" selection-start="228" selection-end="1367" vertical-scroll-proportion="0.76119405" vertical-offset="450" max-vertical-offset="1120">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.6803653" vertical-offset="463" max-vertical-offset="1120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVC-Login/views/html/loginform.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="220" selection-end="220" vertical-scroll-proportion="0.09552239" vertical-offset="0" max-vertical-offset="670">
           <folding />
         </state>
       </provider>
@@ -565,20 +520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MVC-Login/views/html/header.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="48" selection-start="889" selection-end="889" vertical-scroll-proportion="-12.72" vertical-offset="130" max-vertical-offset="800">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MVC-Login/authentication/AuthView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="1" selection-start="218" selection-end="218" vertical-scroll-proportion="-8.96" vertical-offset="0" max-vertical-offset="320">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MVC-Login/model/db.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
@@ -586,34 +527,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MVC-Login/model/TreeModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="21" selection-start="2613" selection-end="2613" vertical-scroll-proportion="2.374034" vertical-offset="0" max-vertical-offset="1680">
-          <folding>
-            <marker date="1392622880000" expanded="true" signature="-1:-1" placeholder="SELECT Name,..TREES..." />
-            <marker date="1392622880000" expanded="true" signature="-1:-1" placeholder="SELECT Name,..FLOWERS..." />
-            <marker date="1392622880000" expanded="true" signature="-1:-1" placeholder="SELECT user_..users..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MVC-Login/authentication/AuthModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="6" selection-start="593" selection-end="593" vertical-scroll-proportion="-12.16" vertical-offset="0" max-vertical-offset="624">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MVC-Login/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="34" selection-start="106" selection-end="106" vertical-scroll-proportion="-2.56" vertical-offset="0" max-vertical-offset="848">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MVC-Login/authentication/logout.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="5" selection-start="150" selection-end="150" vertical-scroll-proportion="-6.4" vertical-offset="0" max-vertical-offset="256">
+        <state line="10" column="5" selection-start="150" selection-end="150" vertical-scroll-proportion="0.23880596" vertical-offset="0" max-vertical-offset="670">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FollowAlongExample/models/viewModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="161" selection-end="161" vertical-scroll-proportion="0.29675424" vertical-offset="0" max-vertical-offset="647">
           <folding />
         </state>
       </provider>
@@ -625,9 +548,154 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MVC-Login/authentication/AuthView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="5" selection-start="215" selection-end="215" vertical-scroll-proportion="0.28656715" vertical-offset="0" max-vertical-offset="670">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FollowAlongExample/models/contactsModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="31" selection-start="615" selection-end="615" vertical-scroll-proportion="0.5731343" vertical-offset="0" max-vertical-offset="896">
+          <folding>
+            <marker date="1392598245000" expanded="true" signature="-1:-1" placeholder="select u.fir..users..." />
+            <marker date="1392598245000" expanded="true" signature="-1:-1" placeholder="select * fro..user_details..." />
+            <marker date="1392598245000" expanded="true" signature="-1:-1" placeholder="select * fro..users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MVC-Login/authentication/auth.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="672">
+        <state line="15" column="13" selection-start="421" selection-end="421" vertical-scroll-proportion="0.35820895" vertical-offset="0" max-vertical-offset="672">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVC-Read/views/html/footer.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="9" selection-start="103" selection-end="103" vertical-scroll-proportion="-3.84" vertical-offset="0" max-vertical-offset="224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVC-Read/views/html/latest-flower.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="36" selection-start="181" selection-end="181" vertical-scroll-proportion="-5.12" vertical-offset="0" max-vertical-offset="304">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVC-Read/views/html/latest-tree.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.02472952" vertical-offset="0" max-vertical-offset="647">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVC-Read/model/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="113" selection-end="113" vertical-scroll-proportion="0.19104478" vertical-offset="0" max-vertical-offset="670">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVC-Read/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="4" selection-start="150" selection-end="155" vertical-scroll-proportion="0.19104478" vertical-offset="0" max-vertical-offset="670">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FollowAlongExample/views/header.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="9" selection-start="432" selection-end="432" vertical-scroll-proportion="0.38964993" vertical-offset="0" max-vertical-offset="657">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVC-Read/views/html/header.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="50" selection-start="826" selection-end="826" vertical-scroll-proportion="0.5970149" vertical-offset="0" max-vertical-offset="670">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVC-Login/views/html/footer.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="674">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVC-Read/model/TreeModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="307" selection-end="307" vertical-scroll-proportion="-10.88" vertical-offset="0" max-vertical-offset="1232">
+          <folding>
+            <marker date="1392601877000" expanded="true" signature="-1:-1" placeholder="SELECT Name,..TREES..." />
+            <marker date="1392601877000" expanded="true" signature="-1:-1" placeholder="SELECT Name,..FLOWERS..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVC-Login/views/html/tree_details.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="674">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVC-Login/views/html/flower_details.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="261" selection-end="261" vertical-scroll-proportion="0.31044775" vertical-offset="0" max-vertical-offset="670">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVC-Read/model/TreeView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="38" selection-start="252" selection-end="252" vertical-scroll-proportion="0.31044775" vertical-offset="0" max-vertical-offset="670">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVC-Login/model/TreeView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="38" selection-start="486" selection-end="486" vertical-scroll-proportion="-14.08" vertical-offset="0" max-vertical-offset="512">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVC-Login/model/TreeModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="25" selection-start="295" selection-end="295" vertical-scroll-proportion="13.52" vertical-offset="562" max-vertical-offset="1232">
+          <folding>
+            <marker date="1392698334000" expanded="true" signature="482:596" placeholder="SELECT Name,..TREES..." />
+            <marker date="1392698334000" expanded="true" signature="1156:1275" placeholder="SELECT Name,..FLOWERS..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVC-Login/authentication/AuthModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="13" selection-start="974" selection-end="974" vertical-scroll-proportion="-17.92" vertical-offset="0" max-vertical-offset="624">
+          <folding>
+            <marker date="1392696942000" expanded="true" signature="459:652" placeholder="SELECT user_..users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVC-Login/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="83" selection-start="514" selection-end="514" vertical-scroll-proportion="-11.52" vertical-offset="0" max-vertical-offset="928">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVC-Login/views/html/header.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="34" selection-start="661" selection-end="661" vertical-scroll-proportion="0.4402985" vertical-offset="105" max-vertical-offset="832">
           <folding />
         </state>
       </provider>

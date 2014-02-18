@@ -23,18 +23,20 @@
 <h1>Plants</h1>
 <p id="intro">Plant Information Database</p>
 
-<div id="trees"><?php echo  "<a href='views/html/latest-tree.inc?action=index.php'>Trees</a>"; ?></div>
-<div id="flowers"><?php echo "<a href='views/html/latest-flower.inc?action=index.php'>Flowers</a>"; ?></div>
+<a href='/index.php?action='>Login</a>
 
-<p>Please login with a Username and Password</p>
+<!--<div id="trees">--><?php //echo  "<a href='views/html/tree_details.inc?action=index.php'>Trees</a>"; ?><!--</div>-->
+<!--<div id="flowers">--><?php //echo "<a href='views/html/flower_details.inc?action=index.php'>Flowers</a>"; ?><!--</div>-->
 
-<form action="<?php echo $pageTitle; ?>" method="post">
-    <label for="username">Username</label>
-    <input type="text" name="username" id="username" maxlength="20" size="20"/><br/>
-    <label for="password">Password</label>
-    <input type="password" name="password" id="password" maxlength="20" size="20"/><br />
-    <input type="submit"/>
-</form>
+<!--<p>Please login with a Username and Password</p>-->
+<!---->
+<!--<form action="--><?php //echo $pageTitle; ?><!--" method="post">-->
+<!--    <label for="username">Username</label>-->
+<!--    <input type="text" name="username" id="username" maxlength="20" size="20"/><br/>-->
+<!--    <label for="password">Password</label>-->
+<!--    <input type="password" name="password" id="password" maxlength="20" size="20"/><br />-->
+<!--    <input type="submit"/>-->
+<!--</form>-->
 
 
 

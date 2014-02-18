@@ -12,11 +12,11 @@ class TreeView {
     }
 
     public function showLastTree($rows) {
-        include 'views/html/latest-tree.inc';
+        include 'views/html/tree_details.inc';
     }
 
     public function showLastFlower($rows) {
-        include 'views/html/latest-flower.inc';
+        include 'views/html/flower_details.inc';
     }
 
 }

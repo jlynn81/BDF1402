@@ -12,20 +12,15 @@ class TreeView {
     }
 
     public function showLastTree($rows) {
-        include 'views/html/latest-tree.inc';
+        include 'views/html/tree_details.inc';
     }
 
     public function showLastFlower($rows) {
-        include 'views/html/latest-flower.inc';
+        include 'views/html/flower_details.inc';
     }
 
-    public function show($temp, $data = array()) {
-
-        $templatePath = "views/${temp}.inc";
-        if (file_exists($templatePath)){
-            include $templatePath;
-        }
-
+    public function showLoginForm() {
+        include 'views/html/form.inc';
     }
 
 }

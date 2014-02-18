@@ -8,6 +8,7 @@ foreach ($rows as $num => $row){
     }
     echo "<li>${row['Color']}</li>";
     echo "<li>${row['Description']}</li>";
-    $lastTree = $row['Color'];
+    $lastFlower = $row['Color'];
 
 }
+?>

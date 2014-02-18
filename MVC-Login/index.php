@@ -1,23 +1,28 @@
 <?php
+session_start();
 
 require_once "model/db.php";
 require_once "model/TreeModel.php";
 require_once "model/TreeView.php";
+require_once "authentication/auth.php";
+require_once "authentication/AuthModel.php";
+require_once "authentication/AuthView.php";
 
-session_start();
+//$pagename = 'protected';
 
 $model = new TreeModel(DSN, USER, PASS);
-$view = new TreeView();
+$views = new TreeView();
 
 //displays the header information for the site
-$view->showTreeHeader('Plants');
+$views->showTreeHeader('Plants');
 
-//displays the most current tree and flower data
-$view->showLastTree($model->getTreeData());
-$view->showLastFlower($model->getFlowerData());
+//displays the most current tree and flower data, along with showing the login form
+$views->showLastTree($model->getTreeData());
+$views->showLastFlower($model->getFlowerData());
+$views->showLoginForm($model->retrieveUserByNamPass(name, pass));
 
 //displays the footer information
-$view->showTreeFooter();
+$views->showTreeFooter();
 
 $userData = array();
 $template = 'login';
@@ -37,9 +42,9 @@ if(!empty($_SESSION['userData'])) {
     }
 }
 
-$view->show('header');
-$view->show($contentPage, $user);
-$view->show('footer');
+$views->show('header');
+$views->show($contentPage, $user);
+$views->show('footer');
 
 
 

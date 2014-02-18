@@ -6,7 +6,7 @@ require_once "AuthView.php";
 
 //instantiates the model and view class
 $model = new AuthModel(DSN, USER, PASS);
-$view = new AuthView();
+$views = new AuthView();
 
 //inputs for the username and password
 $username = empty($_POST['username']) ? '' : trim($_POST['username']);
@@ -32,6 +32,6 @@ if(!empty($username) && !empty($password)){
     }
 }
 
-$view->show('header');
-$view->show($contentPage, $user);
-$view->show('footer');
+$views->show('header');
+$views->show($contentPage, $user);
+$views->show('footer');

@@ -22,8 +22,8 @@
 
 <h1><?php echo $pageTitle; ?></h1>
 <p id="intro">Plant Information Database</p>
-<div id="trees"><?php echo  "<a href='views/latest-tree.inc?action=index.php'>Trees</a>"; ?></div>
-<div id="flowers"><?php echo "<a href='views/latest-flower.inc?action=index.php'>Flowers</a>"; ?></div>
+<div id="trees"><?php echo  "<a href='views/html/tree_details.inc?action=index.php'>Trees</a>"; ?></div>
+<div id="flowers"><?php echo "<a href='views/html/flower_details.inc?action=index.php'>Flowers</a>"; ?></div>
 
 
 <?php
