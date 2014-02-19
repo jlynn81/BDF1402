@@ -1,6 +1,6 @@
 <?php
 //protected data view
-
+echo "<center>";
 foreach($data as $d){
     echo " <b>Height:</b> ";
     echo $d["height"];
@@ -10,3 +10,4 @@ foreach($data as $d){
     echo "<a href=''>Delete</a>";
     echo "<br>";
 }
+echo "</center>";

@@ -1,11 +1,11 @@
 <?php
 
 session_start();
-include 'models/protector.php';
 
 //my index page
-include 'models/treeViewModel.php';
 include 'models/treeModel.php';
+include 'models/treeViewModel.php';
+
 
 $pagename = 'index';
 
@@ -20,6 +20,7 @@ if(@$_GET["action"]!="checklogin" && @$_GET["action"]!="logout"){
 //Display initial list
 
 if(!empty($_GET["action"])){
+
     if($_GET["action"]=="home"){
 
         $result = $trees->getAll();
@@ -31,13 +32,15 @@ if(!empty($_GET["action"])){
         $views->getView("views/tree_details.php", $result);
 
     }if($_GET["action"]=="login"){
+
         $views->getView("views/login.html");
 
     }if($_GET["action"]=="checklogin"){
+
         $result = $trees->checkLogin($_POST["user_name"], $_POST["user_password"]);
 
         if(count($result)>0){
-            header("location:protector.php");
+            header("location: protected.php");
         }else{
             $views->getView("views/header.inc");
             echo "Login Error";

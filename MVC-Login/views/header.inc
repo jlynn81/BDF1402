@@ -23,14 +23,14 @@
 <h1>Tree Types</h1>
 
 <p>Welcome to a selection of different trees</p>
-<p></p><a href="/index.php?action=">HOME</a>
+<!--<p><a href="?action=">Home</a> | <a href="?action=login">Login</a></p>-->
 
 <?php
-if($_SESSION['loggedin'] = 1){ //PDF has 2 "=" signs and makes it break.
-    echo "<a href='index.php?action=logout'>Log Out</a> -";
-    echo " <a href='protected.php?action='>Protected</a> - <a href='protected.php?action=add'>Add a Contact</a>";
-}else{
-    echo "<a href ='index.php?action=login'>LOGIN</a></p>";
-}
-?>
-}
+//if($_SESSION['successful'] = 1){
+// //PDF has 2 "=" signs and makes it break.
+//    echo "<a href='/index.php?action=logout'>Log Out</a></p> ";
+////    echo " <a href='/protected.php?action='>Protected</a></p>";
+//}else{
+//    echo "<a href ='/index.php?action=login'>Login</a></p>";
+//}
+//?>
