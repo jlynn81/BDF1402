@@ -22,8 +22,6 @@
     <table name="TREES" schema="" catalog="BDF1402" type="TABLE">
       <column name="id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" def="MA=="/>
       <column name="NAME" sqlType="VARCHAR" length="250" precision="0" nullable="true" jdbcType="12"/>
-      <column name="HEIGHT" sqlType="VARCHAR" length="250" precision="0" nullable="true" jdbcType="12"/>
-      <column name="DESCRIPTION" sqlType="VARCHAR" length="250" precision="0" nullable="true" jdbcType="12"/>
       <primary-key name="PRIMARY" columns="id"/>
     </table>
     <table name="plant_users" schema="" catalog="BDF1402" type="TABLE">
