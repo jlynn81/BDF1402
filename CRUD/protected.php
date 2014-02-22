@@ -24,14 +24,14 @@ if(!empty($_GET["action"])){
 
     }else if($_GET["action"]=="updateaction"){
 
-        $contacts->update($_GET["id"], $_POST["height"], $_POST["description"]);
-        $result = $contacts->getAll();
+        $trees->update($_GET["id"], $_POST["height"], $_POST["description"]);
+        $result = $trees->getAll();
         $views->getView("views/protected.php",$result);
 
     }else if($_GET["action"] == "delete"){
 
-        $contacts->delete($_GET["id"]);
-        $result = $contacts->getAll();
+        $trees->delete($_GET["id"]);
+        $result = $trees->getAll();
         $views->getView("views/protected.php",$result);
 
     }else if ($_GET["action"] == "add"){
@@ -39,8 +39,8 @@ if(!empty($_GET["action"])){
         $views->getView("views/addform.html");
 
     }else if ($_GET["action"] == "addaction"){
-        $contacts->add($_POST["user_name"], $_POST["user_password"],  $_POST["NAME"], $_POST["height"], $_POST["description"] ); //
-        $result = $contacts -> getAll();
+        $trees->add($_POST["NAME"], $_POST["user_name"],  $_POST["user_password"], $_POST["height"], $_POST["description"] );
+        $result = $trees -> getAll();
         $views->getView("views/protected.php", $result);
     }
 

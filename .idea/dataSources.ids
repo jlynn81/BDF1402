@@ -12,13 +12,6 @@
     <schema name="" catalog="information_schema"/>
     <schema name="" catalog="mysql"/>
     <schema name="" catalog="performance_schema"/>
-    <table name="FLOWERS" schema="" catalog="BDF1402" type="TABLE">
-      <column name="FLOWERID" sqlType="SMALLINT" length="5" precision="0" nullable="false" jdbcType="5" def="MA=="/>
-      <column name="NAME" sqlType="VARCHAR" length="32" precision="0" nullable="true" jdbcType="12"/>
-      <column name="COLOR" sqlType="VARCHAR" length="32" precision="0" nullable="true" jdbcType="12"/>
-      <column name="DESCRIPTION" sqlType="VARCHAR" length="32" precision="0" nullable="true" jdbcType="12"/>
-      <primary-key name="PRIMARY" columns="FLOWERID"/>
-    </table>
     <table name="TREES" schema="" catalog="BDF1402" type="TABLE">
       <column name="id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" def="MA=="/>
       <column name="NAME" sqlType="VARCHAR" length="250" precision="0" nullable="true" jdbcType="12"/>
@@ -40,14 +33,6 @@
       <column name="description" sqlType="VARCHAR" length="250" precision="0" nullable="true" jdbcType="12"/>
       <primary-key name="PRIMARY" columns="id"/>
     </table>
-    <table name="userInfo" schema="" catalog="BDF1402" type="TABLE">
-      <column name="id" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
-      <column name="email" sqlType="VARCHAR" length="100" precision="0" nullable="true" jdbcType="12"/>
-      <column name="phone" sqlType="VARCHAR" length="100" precision="0" nullable="true" jdbcType="12"/>
-      <column name="address" sqlType="VARCHAR" length="100" precision="0" nullable="true" jdbcType="12"/>
-      <column name="username" sqlType="VARCHAR" length="100" precision="0" nullable="true" jdbcType="12"/>
-      <primary-key name="PRIMARY" columns="id"/>
-    </table>
     <table name="user_details" schema="" catalog="BDF1402" type="TABLE">
       <column name="id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
       <column name="email" sqlType="VARCHAR" length="250" precision="0" nullable="true" jdbcType="12"/>
@@ -64,18 +49,6 @@
       <primary-key name="PRIMARY" columns="user_id"/>
       <index name="UX_name" unique="true" columns="user_name"/>
       <index name="UX_name_password" unique="true" columns="user_password,user_name"/>
-    </table>
-    <table name="usersNotNormalized" schema="" catalog="BDF1402" type="TABLE">
-      <column name="userId" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
-      <column name="firstname" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
-      <column name="lastname" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
-      <column name="username" sqlType="VARCHAR" length="50" precision="0" nullable="false" jdbcType="12" def="Jyc="/>
-      <column name="password" sqlType="VARCHAR" length="50" precision="0" nullable="false" jdbcType="12" def="Jyc="/>
-      <column name="dob" sqlType="DATE" length="10" precision="0" nullable="true" jdbcType="91"/>
-      <column name="userStatus" sqlType="VARCHAR" length="15" precision="0" nullable="true" jdbcType="12"/>
-      <column name="userType" sqlType="VARCHAR" length="15" precision="0" nullable="true" jdbcType="12"/>
-      <column name="createdDate" sqlType="DATETIME" length="19" precision="0" nullable="true" jdbcType="93"/>
-      <primary-key name="PRIMARY" columns="userId"/>
     </table>
     <table name="post" schema="" catalog="blog" type="TABLE">
       <column name="id" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>

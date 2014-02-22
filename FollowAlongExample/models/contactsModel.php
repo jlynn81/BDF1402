@@ -7,9 +7,9 @@ class contactsModel extends DB{
     }
 
     public function getAll(){
-        $sql = "select u.first, u.last, u.id, ud.email, ud.phone, ud.address, ud.userid
+        $sql = "select u.user_fullname, u.user_name, u.user_id, ud.email, ud.phone, ud.address, ud.id
                 from
-                users u join user_details ud on u.id = ud.id";
+                users u join user_details ud on u.user_id = ud.id";
         $st = $this->db->prepare($sql);
         $st->execute();
 
@@ -25,11 +25,11 @@ class contactsModel extends DB{
         return $st->fetchAll();
     }
 
-    public function checkLogin($uname='',$password=''){
+    public function checkLogin($user_name='',$user_password=''){
 
-        $sql = 'select * from users where un = :uname and password:password';
+        $sql = 'select * from users where user_name = :user_name and user_password = :user_password';
         $st = $this->db->prepare($sql);
-        $st->execute(array(":uname"=>$uname, ":password"=>$password));
+        $st->execute(array(":user_name"=>$user_name, ":user_password"=>$user_password));
 
         $num = $st->rowCount();
 
@@ -39,13 +39,12 @@ class contactsModel extends DB{
             $_SESSION["loggedin"] = 0;
         }
 
-        return $st->fetchAll(PDO::FETCH_COLUMN,0);
+        return $st->fetchAll(PDO::FETCH_COLUMN, 0);
+
+        }
+
+        public function logout(){
+            $_SESSION["loggedin"] = 0;
+        }
 
     }
-
-    public function logout(){
-
-        $_SESSION["loggedin"] = 0;
-    }
-
-} 
