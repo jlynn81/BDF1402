@@ -11,6 +11,7 @@
       <w>pagename</w>
       <w>treeid</w>
       <w>treesid</w>
+      <w>updateaction</w>
       <w>viewport</w>
     </words>
   </dictionary>
