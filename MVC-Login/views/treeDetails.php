@@ -1,6 +1,6 @@
 <?php
 
-echo "<center>";
+
 foreach($data as $d){
 
     echo " <b>Height:</b> ";
@@ -9,5 +9,5 @@ foreach($data as $d){
     echo $d["description"];
     echo "<br>";
 }
-echo "</center>";
+
 ?>

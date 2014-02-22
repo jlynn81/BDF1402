@@ -26,14 +26,14 @@ if(!empty($_GET["action"])){
         $result = $trees->getAll();
         $views->getView("views/tree.php", $result);
 
-    }if($_GET["action"]=="tree_details"){
+    }if($_GET["action"]=="trees"){
 
         $result = $trees->getOne($_GET["id"]);
-        $views->getView("views/tree_details.php", $result);
+        $views->getView("views/treeDetails.php", $result);
 
     }if($_GET["action"]=="login"){
 
-        $views->getView("views/login.html");
+        $views->getView("views/loginform.html");
 
     }if($_GET["action"]=="checklogin"){
 
@@ -44,7 +44,7 @@ if(!empty($_GET["action"])){
         }else{
             $views->getView("views/header.inc");
             echo "Login Error";
-            $views->getView("views/login.html");
+            $views->getView("views/loginform.html");
         }
     }
     if($_GET["action"]=="logout"){

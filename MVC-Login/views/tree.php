@@ -7,6 +7,6 @@ foreach($data as $d){
     echo $d["NAME"];
     echo " ";
 
-    echo " <a href=?action=tree_details&id=".$d["id"].">tree_details</a>";
+    echo " <a href=?action=treeDetails&id=".$d["NAME"].">Trees</a>";
     echo "<br>";
 }
