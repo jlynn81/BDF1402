@@ -26,7 +26,7 @@
 <p><a href="?action=">Home</a>
 
 <?php
-if($_SESSION['successful'] == 1){//PDF has 2 "=" signs and makes it break.
+if($_SESSION['successful'] == 1){
     echo "<a href='index.php?action=logout'>Log Out</a></p> ";
     echo " <a href='protected.php?action='>Protected</a></p>";
 }else{
