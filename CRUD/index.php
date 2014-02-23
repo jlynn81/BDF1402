@@ -26,7 +26,7 @@ if(!empty($_GET["action"])){
         $result = $trees->getAll();
         $views->getView("views/tree.php", $result);
 
-    }if($_GET["action"]=="tree_details"){
+    }if($_GET["action"]=="Trees"){
 
         $result = $trees->getOne($_GET["id"]);
         $views->getView("views/tree_details.php", $result);
@@ -37,7 +37,7 @@ if(!empty($_GET["action"])){
 
     }if($_GET["action"]=="checklogin"){
 
-        $result = $trees->checkLogin($_POST["user_name"], $_POST["user_password"]);
+        $result = $trees->checkLogin($_POST["username"], $_POST["password"]);
 
         if(count($result)>0){
             header("location: protected.php");

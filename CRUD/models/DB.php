@@ -6,7 +6,7 @@ class DB {
         //create new PDO connection to DB
         //Dump error if connection issue
         try{
-            $dsn = "mysql:host=127.0.0.1;port=8889;dbname=BDF1402";
+            $dsn = "mysql:host=localhost;dbname=BDF1402";
             $db_user = "root";
             $db_password = "root";
 

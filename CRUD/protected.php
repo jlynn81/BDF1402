@@ -19,7 +19,7 @@ if(!empty($_GET["action"])){
 
     if($_GET["action"]=="update"){
 
-        $result = $trees->getOne($_GET["id"]);
+        $result = $trees->getOne($_GET["treeId"]);
         $views->getView("views/updateform.html", $result);
 
     }else if($_GET["action"]=="updateaction"){
@@ -39,7 +39,7 @@ if(!empty($_GET["action"])){
         $views->getView("views/addform.html");
 
     }else if ($_GET["action"] == "addaction"){
-        $trees->add($_POST["NAME"], $_POST["user_name"],  $_POST["user_password"], $_POST["height"], $_POST["description"] );
+        $trees->add($_POST["name"], $_POST["user_name"],  $_POST["user_password"], $_POST["height"], $_POST["description"] );
         $result = $trees -> getAll();
         $views->getView("views/protected.php", $result);
     }

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<header>
+<head>
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
@@ -14,9 +14,9 @@
     <!--    Web font for site-->
     <link href='http://fonts.googleapis.com/css?family=Ledger' rel='stylesheet' type='text/css'>
 
-    <title>Plants</title>
+    <title><?php echo $pageTitle; ?></title>
 
-</header>
+</head>
 
 <body>
 
@@ -27,9 +27,9 @@
 
 <?php
 if($_SESSION["successful"] = 1){
-    echo " <a href='/index.php?action=logout'>Log Out</a></p> ";
-    echo " <a href='/protected.php?action='>Protected</a> | <a href='/protected.php?action=add'>Add a Tree</a><p>";
+    echo " <a href='index.php?action=logout'>Log Out</a> | ";
+    echo " <a href='protected.php?action='>Protected</a> | <a href='/protected.php?action=add'>Add a Tree</a></p>";
 }else{
-    echo "<a href ='/index.php?action=login'>Login</a></p>";
+    echo "<a href ='index.php?action=login'>Login</a></p>";
 }
 ?>
