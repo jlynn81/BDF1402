@@ -25,7 +25,7 @@ if(!empty($_GET["action"])){
     }
     if($_GET["action"]=="Trees"){
 
-        $result = $trees->getOne($_GET["treeid"]);
+        $result = $trees->getOne($_GET["id"]);
         $views->getView("views/tree_details.php", $result);
 
     }
@@ -42,7 +42,7 @@ if(!empty($_GET["action"])){
             header("location: protected.php");
         }else{
             $views->getView("views/header.inc");
-            echo "Login Error";
+            echo "<div id='err'>Login Error</div>";
             $views->getView("views/loginform.html");
         }
     }

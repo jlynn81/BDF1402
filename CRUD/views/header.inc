@@ -22,7 +22,7 @@
 
 <h1>Tree Types</h1>
 
-<p><b>Welcome to a selection of different trees</b></p>
-<nav><a href="?action=">Home</a> | <a href="?action=login">Login</a></nav>
+<p>Welcome to a selection of different trees</p>
+<nav><a href="?action=">Home</a> </nav>
 
 

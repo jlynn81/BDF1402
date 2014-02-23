@@ -26,46 +26,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="header.inc" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CRUD/views/header.inc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="39" selection-start="701" selection-end="701" vertical-scroll-proportion="-16.0" vertical-offset="0" max-vertical-offset="544">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CRUD/CSS/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="18" selection-start="1188" selection-end="1188" vertical-scroll-proportion="0.36656892" vertical-offset="22" max-vertical-offset="1024">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.inc" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CRUD/views/footer.inc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="290" selection-end="290" vertical-scroll-proportion="-5.12" vertical-offset="0" max-vertical-offset="448">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="treeModel.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CRUD/models/treeModel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="67" selection-start="195" selection-end="195" vertical-scroll-proportion="-5.76" vertical-offset="32" max-vertical-offset="1488">
+              <folding>
+                <marker date="1393198099000" expanded="true" signature="144:263" placeholder="select t.nam..Trees..." />
+                <marker date="1393198099000" expanded="true" signature="424:465" placeholder="select * fro..tree_details..." />
+                <marker date="1393198099000" expanded="true" signature="673:756" placeholder="select * fro..Trees..." />
+                <marker date="1393198099000" expanded="true" signature="1289:1372" placeholder="update tree_..." />
+                <marker date="1393198099000" expanded="true" signature="1581:1624" placeholder="delete from ..." />
+                <marker date="1393198099000" expanded="true" signature="1726:1758" placeholder="delete from ..." />
+                <marker date="1393198099000" expanded="true" signature="1978:2078" placeholder="insert into ..." />
+                <marker date="1393198099000" expanded="true" signature="2295:2417" placeholder="insert into ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CRUD/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="44" selection-start="575" selection-end="575" vertical-scroll-proportion="-1.84" vertical-offset="386" max-vertical-offset="1056">
+            <state line="38" column="71" selection-start="847" selection-end="847" vertical-scroll-proportion="-8.88" vertical-offset="386" max-vertical-offset="1056">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="protected.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CRUD/protected.php">
+      <file leaf-file-name="protector.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CRUD/models/protector.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="0" selection-start="871" selection-end="871" vertical-scroll-proportion="0.8358209" vertical-offset="0" max-vertical-offset="960">
+            <state line="1" column="28" selection-start="34" selection-end="34" vertical-scroll-proportion="-0.64" vertical-offset="0" max-vertical-offset="192">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="protected.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CRUD/views/protected.php">
+      <file leaf-file-name="DB.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CRUD/models/DB.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="2" selection-start="522" selection-end="522" vertical-scroll-proportion="-12.8" vertical-offset="0" max-vertical-offset="432">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CRUD/CSS/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="16" selection-start="1473" selection-end="1473" vertical-scroll-proportion="0.0" vertical-offset="70" max-vertical-offset="832">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tree_details.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CRUD/views/tree_details.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="86" selection-end="86" vertical-scroll-proportion="-3.84" vertical-offset="0" max-vertical-offset="352">
+            <state line="20" column="2" selection-start="436" selection-end="436" vertical-scroll-proportion="-12.8" vertical-offset="0" max-vertical-offset="416">
               <folding />
             </state>
           </provider>
@@ -120,26 +147,26 @@
         <option value="$PROJECT_DIR$/CRUD/models/DB.php" />
         <option value="$PROJECT_DIR$/CRUD2/views/protected.php" />
         <option value="$PROJECT_DIR$/CRUD2/views/body.php" />
-        <option value="$PROJECT_DIR$/CRUD2/models/contactsModel.php" />
         <option value="$PROJECT_DIR$/CRUD2/views/addform.html" />
         <option value="$PROJECT_DIR$/CRUD2/views/details.php" />
         <option value="$PROJECT_DIR$/CRUD2/views/header.inc" />
-        <option value="$PROJECT_DIR$/CRUD/views/loginform.html" />
-        <option value="$PROJECT_DIR$/CRUD2/index.php" />
         <option value="$PROJECT_DIR$/MVC-Login/protected.php" />
         <option value="$PROJECT_DIR$/MVC-Login/views/header.inc" />
         <option value="$PROJECT_DIR$/MVC-Login/models/treeModel.php" />
-        <option value="$PROJECT_DIR$/CRUD/views/updateform.html" />
-        <option value="$PROJECT_DIR$/CRUD/views/header.inc" />
-        <option value="$PROJECT_DIR$/CRUD/views/footer.inc" />
-        <option value="$PROJECT_DIR$/CRUD/views/addform.html" />
-        <option value="$PROJECT_DIR$/CRUD/models/treeModel.php" />
-        <option value="$PROJECT_DIR$/CRUD/index.php" />
-        <option value="$PROJECT_DIR$/CRUD/views/tree.php" />
-        <option value="$PROJECT_DIR$/CRUD/views/tree_details.php" />
-        <option value="$PROJECT_DIR$/CRUD/CSS/styles.css" />
-        <option value="$PROJECT_DIR$/CRUD/views/protected.php" />
+        <option value="$PROJECT_DIR$/CRUD2/models/contactsModel.php" />
+        <option value="$PROJECT_DIR$/CRUD/views/loginform.html" />
+        <option value="$PROJECT_DIR$/CRUD2/index.php" />
         <option value="$PROJECT_DIR$/CRUD/protected.php" />
+        <option value="$PROJECT_DIR$/CRUD/views/tree_details.php" />
+        <option value="$PROJECT_DIR$/CRUD/index.php" />
+        <option value="$PROJECT_DIR$/CRUD/views/updateform.html" />
+        <option value="$PROJECT_DIR$/CRUD/views/protected.php" />
+        <option value="$PROJECT_DIR$/CRUD/views/addform.html" />
+        <option value="$PROJECT_DIR$/CRUD/views/tree.php" />
+        <option value="$PROJECT_DIR$/CRUD/models/treeModel.php" />
+        <option value="$PROJECT_DIR$/CRUD/views/footer.inc" />
+        <option value="$PROJECT_DIR$/CRUD/views/header.inc" />
+        <option value="$PROJECT_DIR$/CRUD/CSS/styles.css" />
       </list>
     </option>
   </component>
@@ -191,38 +218,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="BDF1402" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BDF1402" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BDF1402" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CRUD2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BDF1402" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BDF1402" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CRUD2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -407,7 +402,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918397" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918397" sideWeight="0.4995752" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17908847" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.08525469" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32780084" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918397" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -673,62 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CRUD/views/loginform.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="48" selection-start="57" selection-end="57" vertical-scroll-proportion="0.023880597" vertical-offset="0" max-vertical-offset="670">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CRUD/models/protector.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="28" selection-start="34" selection-end="34" vertical-scroll-proportion="0.023880597" vertical-offset="0" max-vertical-offset="670">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CRUD/models/DB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="5" selection-start="430" selection-end="430" vertical-scroll-proportion="0.40597016" vertical-offset="0" max-vertical-offset="670">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CRUD/views/updateform.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="67" selection-start="104" selection-end="161" vertical-scroll-proportion="0.09552239" vertical-offset="0" max-vertical-offset="670">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CRUD2/models/contactsModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1408">
-          <folding>
-            <marker date="1391569051000" expanded="true" signature="-1:-1" placeholder="select clien..Clients..." />
-            <marker date="1391569051000" expanded="true" signature="-1:-1" placeholder="select * fro..Clients..." />
-            <marker date="1391569051000" expanded="true" signature="-1:-1" placeholder="select * fro..Clients..." />
-            <marker date="1391569051000" expanded="true" signature="-1:-1" placeholder="update Clien..." />
-            <marker date="1391569051000" expanded="true" signature="-1:-1" placeholder="delete from ..." />
-            <marker date="1391569051000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CRUD2/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.40895522" vertical-offset="274" max-vertical-offset="944">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CRUD2/protected.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.3409437" vertical-offset="224" max-vertical-offset="1168">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CRUD2/views/addform.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="695">
@@ -750,6 +689,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CRUD2/models/contactsModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="5" selection-start="1848" selection-end="1848" vertical-scroll-proportion="1.5829529" vertical-offset="0" max-vertical-offset="1408">
+          <folding>
+            <marker date="1393189690000" expanded="true" signature="-1:-1" placeholder="select clien..Clients..." />
+            <marker date="1393189690000" expanded="true" signature="-1:-1" placeholder="select * fro..Clients..." />
+            <marker date="1393189690000" expanded="true" signature="-1:-1" placeholder="select * fro..Clients..." />
+            <marker date="1393189690000" expanded="true" signature="-1:-1" placeholder="update Clien..." />
+            <marker date="1393189690000" expanded="true" signature="-1:-1" placeholder="delete from ..." />
+            <marker date="1393189690000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CRUD2/protected.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="28" selection-start="1634" selection-end="1634" vertical-scroll-proportion="0.70776254" vertical-offset="511" max-vertical-offset="1168">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CRUD2/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="8" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.54626864" vertical-offset="274" max-vertical-offset="944">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CRUD/protected.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="0" selection-start="1260" selection-end="1260" vertical-scroll-proportion="1.0955224" vertical-offset="18" max-vertical-offset="960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CRUD/views/updateform.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="29" selection-start="202" selection-end="202" vertical-scroll-proportion="0.14328358" vertical-offset="0" max-vertical-offset="670">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CRUD/views/tree_details.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="196" selection-end="196" vertical-scroll-proportion="0.23880596" vertical-offset="0" max-vertical-offset="670">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CRUD/models/protector.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="28" selection-start="34" selection-end="34" vertical-scroll-proportion="-0.64" vertical-offset="0" max-vertical-offset="192">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CRUD/models/DB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="2" selection-start="436" selection-end="436" vertical-scroll-proportion="-12.8" vertical-offset="0" max-vertical-offset="416">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CRUD/models/treeViewModel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="674">
@@ -757,81 +759,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CRUD/views/footer.inc">
+    <entry file="file://$PROJECT_DIR$/CRUD/views/protected.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="294" selection-end="334" vertical-scroll-proportion="0.22256568" vertical-offset="0" max-vertical-offset="647">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CRUD/models/treeModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="50" selection-start="2368" selection-end="2368" vertical-scroll-proportion="-19.12" vertical-offset="818" max-vertical-offset="1488">
-          <folding>
-            <marker date="1393183706000" expanded="true" signature="-1:-1" placeholder="select t.nam..Trees..." />
-            <marker date="1393183706000" expanded="true" signature="-1:-1" placeholder="select * fro..tree_details..." />
-            <marker date="1393183706000" expanded="true" signature="-1:-1" placeholder="select * fro..Trees..." />
-            <marker date="1393183706000" expanded="true" signature="-1:-1" placeholder="update tree_..." />
-            <marker date="1393183706000" expanded="true" signature="-1:-1" placeholder="delete from ..." />
-            <marker date="1393183706000" expanded="true" signature="-1:-1" placeholder="delete from ..." />
-            <marker date="1393183706000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
-            <marker date="1393183706000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CRUD/views/addform.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="42" selection-start="391" selection-end="391" vertical-scroll-proportion="0.14328358" vertical-offset="0" max-vertical-offset="670">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CRUD/views/header.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="745" selection-end="745" vertical-scroll-proportion="0.6447761" vertical-offset="0" max-vertical-offset="670">
+        <state line="13" column="13" selection-start="296" selection-end="296" vertical-scroll-proportion="0.31044775" vertical-offset="0" max-vertical-offset="670">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CRUD/views/tree.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="50" selection-start="154" selection-end="154" vertical-scroll-proportion="0.21492538" vertical-offset="0" max-vertical-offset="670">
+        <state line="9" column="31" selection-start="135" selection-end="135" vertical-scroll-proportion="0.21492538" vertical-offset="0" max-vertical-offset="670">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CRUD/views/loginform.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="44" selection-start="242" selection-end="242" vertical-scroll-proportion="0.09552239" vertical-offset="0" max-vertical-offset="670">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CRUD/views/addform.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="46" selection-start="468" selection-end="468" vertical-scroll-proportion="0.16716418" vertical-offset="0" max-vertical-offset="670">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CRUD/models/treeModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="67" selection-start="195" selection-end="195" vertical-scroll-proportion="-5.76" vertical-offset="32" max-vertical-offset="1488">
+          <folding>
+            <marker date="1393198099000" expanded="true" signature="144:263" placeholder="select t.nam..Trees..." />
+            <marker date="1393198099000" expanded="true" signature="424:465" placeholder="select * fro..tree_details..." />
+            <marker date="1393198099000" expanded="true" signature="673:756" placeholder="select * fro..Trees..." />
+            <marker date="1393198099000" expanded="true" signature="1289:1372" placeholder="update tree_..." />
+            <marker date="1393198099000" expanded="true" signature="1581:1624" placeholder="delete from ..." />
+            <marker date="1393198099000" expanded="true" signature="1726:1758" placeholder="delete from ..." />
+            <marker date="1393198099000" expanded="true" signature="1978:2078" placeholder="insert into ..." />
+            <marker date="1393198099000" expanded="true" signature="2295:2417" placeholder="insert into ..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CRUD/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="44" selection-start="575" selection-end="575" vertical-scroll-proportion="-1.84" vertical-offset="386" max-vertical-offset="1056">
+        <state line="38" column="71" selection-start="847" selection-end="847" vertical-scroll-proportion="-8.88" vertical-offset="386" max-vertical-offset="1056">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CRUD/views/tree_details.php">
+    <entry file="file://$PROJECT_DIR$/CRUD/views/footer.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="86" selection-end="86" vertical-scroll-proportion="-3.84" vertical-offset="0" max-vertical-offset="352">
+        <state line="8" column="0" selection-start="290" selection-end="290" vertical-scroll-proportion="-5.12" vertical-offset="0" max-vertical-offset="448">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CRUD/views/header.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="39" selection-start="701" selection-end="701" vertical-scroll-proportion="-16.0" vertical-offset="0" max-vertical-offset="544">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CRUD/CSS/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="16" selection-start="1473" selection-end="1473" vertical-scroll-proportion="0.0" vertical-offset="70" max-vertical-offset="832">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CRUD/views/protected.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="2" selection-start="522" selection-end="522" vertical-scroll-proportion="-12.8" vertical-offset="0" max-vertical-offset="432">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CRUD/protected.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="871" selection-end="871" vertical-scroll-proportion="0.8358209" vertical-offset="0" max-vertical-offset="960">
+        <state line="17" column="18" selection-start="1188" selection-end="1188" vertical-scroll-proportion="0.36656892" vertical-offset="22" max-vertical-offset="1024">
           <folding />
         </state>
       </provider>

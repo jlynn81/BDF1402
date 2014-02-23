@@ -71,7 +71,7 @@ class contactsModel extends DB{
 							values (  :userName, :password, :name, :email, :phone)";
 		$st = $this->db->prepare($sql);
 		$st-> execute(array(":userName"=> $userName, ":password" => $password, ":name" => $name, ":email" => $email, ":phone"=>$phone));
-		$clietnId = $this->db->lastInsertId();
+		$clientId = $this->db->lastInsertId();
 		
 		//$sql="insert into Clients (clientID, email, phone)
 		//				values (:clientID, :email, :phone)";

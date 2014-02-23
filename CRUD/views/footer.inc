@@ -1,5 +1,5 @@
 <?php
-if($_SESSION["successful"] = 1){
+if($_SESSION["successful"] == 1){
     echo " <a href='index.php?action=logout'>Log Out</a> | ";
     echo " <a href='protected.php?action='>Protected</a> | <a href='protected.php?action=add'>Add a Tree</a></p>";
 }else{
@@ -7,7 +7,6 @@ if($_SESSION["successful"] = 1){
 }
 ?>
 
-<!--<p><a href="?action=login">Login</a></p>-->
 
 </body>
 

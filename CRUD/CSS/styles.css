@@ -11,8 +11,11 @@ body{
     border-radius: 1.25%;
     border-width: 2em;
     font-family: 'Ledger', serif;
-    text-align:center;
+
     padding: 20px;
+}
+nav{
+    color: #adff2f;
 }
 
 h1{
@@ -21,6 +24,7 @@ h1{
     padding-bottom: 10px;
     border-bottom: 10px;
     font-size: 40pt;
+    color: darkblue;
 }
 
 li{
@@ -38,7 +42,15 @@ p{
 
 #treeDisc{
     font-size: 14pt;
-    display: inline;
+
+}
+b{
+
+    text-align: left;
+}
+#err{
+    color: #8b0000;
+    text-align: center;
 }
 
 footer{
