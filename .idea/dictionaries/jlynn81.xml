@@ -9,12 +9,15 @@
       <w>dbname</w>
       <w>fullname</w>
       <w>googleapis</w>
+      <w>loggedin</w>
       <w>loginform</w>
       <w>pagename</w>
       <w>treeid</w>
       <w>treesid</w>
+      <w>uname</w>
       <w>updateaction</w>
       <w>updateform</w>
+      <w>userid</w>
       <w>viewport</w>
     </words>
   </dictionary>

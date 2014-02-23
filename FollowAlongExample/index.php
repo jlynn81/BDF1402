@@ -9,7 +9,7 @@ include 'models/contactsModel.php';
 $pagename = 'index';
 
 $views = new viewModel();
-$trees = new contactsModel();
+$contacts = new contactsModel();
 
 //Display Header maybe with a button
 if(@$_GET["action"]!="checklogin" && @$_GET["action"]!="logout"){
@@ -22,13 +22,13 @@ if(!empty($_GET["action"])){
 
     if($_GET["action"]=="home"){
 
-        $result = $trees->getAll();
+        $result = $contacts->getAll();
         $views->getView("views/body.php",$result);
 
     }if($_GET["action"] == "details"){
 
-        $result = $trees->getOne($_GET["id"]);
-        $views->getView("views/user_details.php",$result);
+        $result = $contacts->getOne($_GET["id"]);
+        $views->getView("views/details.php",$result);
 
     }if($_GET["action"]=="login"){
 
@@ -36,7 +36,7 @@ if(!empty($_GET["action"])){
     }
     if($_GET["action"]=="checklogin"){
 
-        $result = $trees->checkLogin($_POST["un"], $_POST["password"]);
+        $result = $contacts->checkLogin($_POST["un"], $_POST["password"]);
 
         if(count($result)>0){
             header("location: protector.php");
@@ -50,13 +50,13 @@ if(!empty($_GET["action"])){
     }
     if($_GET["action"]=="logout"){
 
-        $trees->logout();
+        $contacts->logout();
         header("location: index.php");
     }
 
 }else{
 
-    $result = $trees->getAll();
+    $result = $contacts->getAll();
     $views->getView("views/body.php",$result);
 }
 

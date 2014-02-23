@@ -12,11 +12,11 @@ foreach($data as $d){
     echo '<b>Phone:</b> ';
     echo $d['phone'];
 
-    echo ' <br><b>Address:</b> ';
+    echo ' <b>Address:</b> ';
     echo $d['address'];
 
-    echo " <a href=''>Update</a>";
-    echo " <a href=''>Delete</a>";
+    echo " <a href='?action=update&id=".$d("id")."'>Update</a>";
+    echo " <a href='?action=delete&id=".$d("id")."'>Delete</a>";
     echo "<br>";
 }
 echo "</center>";

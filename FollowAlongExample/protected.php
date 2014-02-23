@@ -19,12 +19,12 @@ if(!empty($_GET["action"])){
 
     if($_GET["action"]=="update"){
 
-        $result = $trees->getOne($_GET["id"]);
+        $result = $contacts->getOne($_GET["id"]);
         $views->getView("views/updateform.html", $result);
 
     }else if($_GET["action"]=="updateaction"){
 
-        $contacts->update($_GET["id"], $_POST["height"], $_POST["description"]);
+        $contacts->update($_GET["id"], $_POST["email"], $_POST["phone"], $_POST["address"]);
         $result = $contacts->getAll();
         $views->getView("views/protected.php",$result);
 
@@ -39,31 +39,17 @@ if(!empty($_GET["action"])){
         $views->getView("views/addform.html");
 
     }else if ($_GET["action"] == "addaction"){
-        $contacts->add($_POST["user_name"], $_POST["user_password"],  $_POST["NAME"], $_POST["height"], $_POST["description"] ); //
+        $contacts->add($_POST["first"], $_POST["last"],  $_POST["un"], $_POST["pass"], $_POST["email"], $_POST["phone"],
+                                $_POST["address"]);
         $result = $contacts -> getAll();
         $views->getView("views/protected.php", $result);
     }
 
-
-    if($_GET["action"]=="home"){
-    	$result = $trees->getAll();
-    	$views->getView("views/body.php", $result);
-    }
-
-    if($_GET["action"]=="details"){
-    	$result=$trees->getOne($_GET["id"]);
-    	$views->getView("views/details.php",$result);
-        $data = $trees->getAll();
-        $views->getView("views/body.php",$data);
-
     }else{
 
-    $result = $trees->getAll();
+    $result = $contacts->getAll();
     $views->getView("views/protected.php", $result);
 
-    $data = $contacts->getAll();
 
-    $views->getView("views/body.php",$data);
-    }
 }
     $views->getView("views/footer.inc");

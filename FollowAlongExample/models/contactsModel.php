@@ -7,9 +7,10 @@ class contactsModel extends DB{
     }
 
     public function getAll(){
-        $sql = "select u.user_fullname, u.user_name, u.user_id, ud.email, ud.phone, ud.address, ud.id
+        $sql = "select u.first, u.last, u.id, ud.email, ud.phone, ud.address, ud.userid
                 from
-                users u join user_details ud on u.user_id = ud.id";
+                plant_users u join user_details ud on u.id = ud.id";
+
         $st = $this->db->prepare($sql);
         $st->execute();
 
@@ -25,11 +26,11 @@ class contactsModel extends DB{
         return $st->fetchAll();
     }
 
-    public function checkLogin($user_name='',$user_password=''){
+    public function checkLogin($uname='',$password=''){
 
-        $sql = 'select * from users where user_name = :user_name and user_password = :user_password';
+        $sql = "select * from plant_users where un = :uname and pass = :password";
         $st = $this->db->prepare($sql);
-        $st->execute(array(":user_name"=>$user_name, ":user_password"=>$user_password));
+        $st->execute(array(":uname"=>$uname, ":password"=>$password));
 
         $num = $st->rowCount();
 
@@ -46,5 +47,36 @@ class contactsModel extends DB{
         public function logout(){
             $_SESSION["loggedin"] = 0;
         }
+
+    public function update($id=0, $email='', $phone='', $address=''){
+
+        $sql = "update user_details set email = :email, phone=:phone, address=:address where id =:id";
+        $st = $this->db->prepare($sql);
+        $st->execute(array(":id"=>$id, ":email"=>$email, ":phone"=>$phone, ":address"=>$address));
+    }
+
+    public function delete($id=0){
+        $sql = "delete from user_details where userid = :id";
+        $st = $this->db->prepare($sql);
+        $st->execute(array(":id"=>$id));
+
+        $sql = "delete from plant_users where id = :id";
+        $st = $this->db->prepare($sql);
+        $st->execute(array(":id"=>$id));
+    }
+
+    public function add($first='', $last='', $un='', $pass='', $email='', $phone='', $address=''){
+
+        $sql = "insert into plant_users (un, pass, first, last)
+                            values (:un, :pass, :first, :last)";
+        $st = $this->db->prepare($sql);
+        $st->execute(array(":un"=>$un, ":pass"=>$pass, ":first"=>$first, ":last"=>$last));
+        $userid = $this->db->lastInsertId();
+
+        $sql = "insert into user_details (userid, email, phone, address)
+                            values (:userid, :email, :phone, :address)";
+        $st = $this->db->prepare($sql);
+        $st->execute(array(":userid"=>$userid, ":email"=>$email, ":phone"=>$phone, ":address"=>$address));
+    }
 
     }
