@@ -25,52 +25,28 @@
     <favorites_list name="BDF1402" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.49618968">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="contactsModel.php" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/CRUD2/models/contactsModel.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="38" column="18" selection-start="971" selection-end="971" vertical-scroll-proportion="-0.17047185" vertical-offset="720" max-vertical-offset="1408">
-                  <folding>
-                    <marker date="1393126775000" expanded="true" signature="165:253" placeholder="select clien..Clients..." />
-                    <marker date="1393126775000" expanded="true" signature="399:447" placeholder="select * fro..Clients..." />
-                    <marker date="1393126775000" expanded="true" signature="641:712" placeholder="select * fro..Clients..." />
-                    <marker date="1393126775000" expanded="true" signature="1229:1346" placeholder="update Clien..." />
-                    <marker date="1393126775000" expanded="true" signature="1568:1613" placeholder="delete from ..." />
-                    <marker date="1393126775000" expanded="true" signature="1975:2097" placeholder="insert into ..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="treeModel.php" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/CRUD/models/treeModel.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="79" column="0" selection-start="2289" selection-end="2289" vertical-scroll-proportion="0.69863015" vertical-offset="805" max-vertical-offset="1488">
-                  <folding>
-                    <marker date="1393129382000" expanded="true" signature="144:267" placeholder="select t.NAM..Trees..." />
-                    <marker date="1393129382000" expanded="true" signature="432:473" placeholder="select * fro..tree_details..." />
-                    <marker date="1393129382000" expanded="true" signature="685:804" placeholder="select * fro..Trees..." />
-                    <marker date="1393129382000" expanded="true" signature="685:762" placeholder="select * fro..Trees..." />
-                    <marker date="1393129382000" expanded="true" signature="685:762" placeholder="select * fro..TREES..." />
-                    <marker date="1393129382000" expanded="true" signature="1294:1377" placeholder="update tree_..." />
-                    <marker date="1393129382000" expanded="true" signature="1586:1625" placeholder="delete from ..." />
-                    <marker date="1393129382000" expanded="true" signature="1729:1765" placeholder="delete from ..." />
-                    <marker date="1393129382000" expanded="true" signature="1993:2095" placeholder="insert into ..." />
-                    <marker date="1393129382000" expanded="true" signature="2307:2421" placeholder="insert into ..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="treeModel.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CRUD/models/treeModel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="79" column="0" selection-start="2289" selection-end="2289" vertical-scroll-proportion="0.6850746" vertical-offset="805" max-vertical-offset="1488">
+              <folding>
+                <marker date="1393129382000" expanded="true" signature="144:267" placeholder="select t.NAM..Trees..." />
+                <marker date="1393129382000" expanded="true" signature="432:473" placeholder="select * fro..tree_details..." />
+                <marker date="1393129382000" expanded="true" signature="685:804" placeholder="select * fro..Trees..." />
+                <marker date="1393129382000" expanded="true" signature="685:762" placeholder="select * fro..Trees..." />
+                <marker date="1393129382000" expanded="true" signature="685:762" placeholder="select * fro..TREES..." />
+                <marker date="1393129382000" expanded="true" signature="1294:1377" placeholder="update tree_..." />
+                <marker date="1393129382000" expanded="true" signature="1586:1625" placeholder="delete from ..." />
+                <marker date="1393129382000" expanded="true" signature="1729:1765" placeholder="delete from ..." />
+                <marker date="1393129382000" expanded="true" signature="1993:2095" placeholder="insert into ..." />
+                <marker date="1393129382000" expanded="true" signature="2307:2421" placeholder="insert into ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -419,7 +395,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="8" y="22" width="1677" height="815" extended-state="0" />
+    <frame x="8" y="22" width="1677" height="815" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918397" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -825,19 +801,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="18" selection-start="971" selection-end="971" vertical-scroll-proportion="-0.17047185" vertical-offset="720" max-vertical-offset="1408">
           <folding>
-            <marker date="1393126775000" expanded="true" signature="165:253" placeholder="select clien..Clients..." />
-            <marker date="1393126775000" expanded="true" signature="399:447" placeholder="select * fro..Clients..." />
-            <marker date="1393126775000" expanded="true" signature="641:712" placeholder="select * fro..Clients..." />
-            <marker date="1393126775000" expanded="true" signature="1229:1346" placeholder="update Clien..." />
-            <marker date="1393126775000" expanded="true" signature="1568:1613" placeholder="delete from ..." />
-            <marker date="1393126775000" expanded="true" signature="1975:2097" placeholder="insert into ..." />
+            <marker date="1393126775000" expanded="true" signature="-1:-1" placeholder="select clien..Clients..." />
+            <marker date="1393126775000" expanded="true" signature="-1:-1" placeholder="select * fro..Clients..." />
+            <marker date="1393126775000" expanded="true" signature="-1:-1" placeholder="select * fro..Clients..." />
+            <marker date="1393126775000" expanded="true" signature="-1:-1" placeholder="update Clien..." />
+            <marker date="1393126775000" expanded="true" signature="-1:-1" placeholder="delete from ..." />
+            <marker date="1393126775000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CRUD/models/treeModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="0" selection-start="2289" selection-end="2289" vertical-scroll-proportion="0.69863015" vertical-offset="805" max-vertical-offset="1488">
+        <state line="79" column="0" selection-start="2289" selection-end="2289" vertical-scroll-proportion="0.6850746" vertical-offset="805" max-vertical-offset="1488">
           <folding>
             <marker date="1393129382000" expanded="true" signature="144:267" placeholder="select t.NAM..Trees..." />
             <marker date="1393129382000" expanded="true" signature="432:473" placeholder="select * fro..tree_details..." />
