@@ -1,11 +1,9 @@
 <?php
 
 session_start();
-
 //my index page
 include 'models/treeModel.php';
 include 'models/treeViewModel.php';
-
 
 $pagename = 'index';
 
@@ -16,9 +14,7 @@ $trees = new treeModel();
 if(@$_GET["action"]!="checklogin" && @$_GET["action"]!="logout"){
     $views->getView("views/header.inc");
 }
-
 //Display initial list
-
 if(!empty($_GET["action"])){
 
     if($_GET["action"]=="home"){
@@ -26,18 +22,21 @@ if(!empty($_GET["action"])){
         $result = $trees->getAll();
         $views->getView("views/tree.php", $result);
 
-    }if($_GET["action"]=="Trees"){
+    }
+    if($_GET["action"]=="Trees"){
 
-        $result = $trees->getOne($_GET["id"]);
+        $result = $trees->getOne($_GET["treeid"]);
         $views->getView("views/tree_details.php", $result);
 
-    }if($_GET["action"]=="login"){
+    }
+    if($_GET["action"]=="login"){
 
         $views->getView("views/loginform.html");
 
-    }if($_GET["action"]=="checklogin"){
+    }
+    if($_GET["action"]=="checklogin"){
 
-        $result = $trees->checkLogin($_POST["username"], $_POST["password"]);
+        $result = $trees->checkLogin($_POST["user_name"], $_POST["user_password"]);
 
         if(count($result)>0){
             header("location: protected.php");
@@ -48,6 +47,7 @@ if(!empty($_GET["action"])){
         }
     }
     if($_GET["action"]=="logout"){
+
         $trees->logout();
         header("location: index.php");
     }

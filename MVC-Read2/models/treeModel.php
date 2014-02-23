@@ -19,7 +19,7 @@ class treeModel extends DB{
 
     public function getOne($id=0){
 
-        $sql = "select * from tree_details where id = :id";
+        $sql = "select * from tree_details where treeid = :id";
         $st = $this->db->prepare($sql);
         $st->execute(array(":id"=>$id));
 

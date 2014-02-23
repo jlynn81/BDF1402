@@ -8,7 +8,7 @@ include 'models/contactsModel.php';
 $pagename = 'index';
 $views = new viewModel();
 //$views->getView("views/header.inc");
-$trees = new contactsModel();
+$contacts = new contactsModel();
 
 if(@$_GET["action"]!="checklogin" && @$_GET["action"]!="logout"){
 	$views->getView("views/header.inc");
@@ -17,18 +17,18 @@ if(@$_GET["action"]!="checklogin" && @$_GET["action"]!="logout"){
 if(!empty($_GET["action"])){
 	
 	if($_GET["action"]=="home"){	
-		$result = $trees->getAll();
+		$result = $contacts->getAll();
 		$views->getView("views/body.php", $result);
 	}
-	if($_GET["action"]=="Trees"){
-		$result = $trees->getOne($_GET["id"]);
+	if($_GET["action"]=="Clients"){
+		$result = $contacts->getOne($_GET["clientID"]);
 		$views->getView("views/details.php", $result);	
 	}
 	if($_GET["action"]=="login"){
 		$views->getView("views/loginform.html");
 	}
 	if($_GET["action"]=="checklogin"){
-		$result = $trees->checkLogin($_POST["username"], $_POST["password"]);
+		$result = $contacts->checkLogin($_POST["userName"], $_POST["password"]);
 		if(count($result)>0){
 			header("location: protected.php");
 		}else{
@@ -39,14 +39,14 @@ if(!empty($_GET["action"])){
 	}
 	if($_GET["action"]=="logout"){
 		
-			$trees->logout();
+			$contacts->logout();
 			header("location: index.php");
 		}
 //	}//typo
 	
 }else{
 
-	$result = $trees->getAll();
+	$result = $contacts->getAll();
 	$views->getView("views/body.php", $result);
 }
 

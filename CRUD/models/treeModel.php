@@ -9,9 +9,9 @@ class treeModel extends DB{
     }
 
     public function getAll(){
-        $sql = "select t.NAME, t.treeId, td.height, td.description, td.id
+        $sql = "select t.name, t.id, td.height, td.description, td.treeid
         from
-        Trees t join tree_details td on t.id = td.id";
+        Trees t join tree_details td on t.id = td.treeid";
 
         $st = $this->db->prepare($sql);
         $st->execute();
@@ -20,11 +20,11 @@ class treeModel extends DB{
 
     }
 
-    public function getOne($treeId=0){
+    public function getOne($id=0){
 
-        $sql = "select * from tree_details where id = :id";
+        $sql = "select * from tree_details where treeid = :id";
         $st = $this->db->prepare($sql);
-        $st->execute[array(":id"=>$treeId)];
+        $st->execute(array(":id"=>$id));
 
         return $st->fetchAll();
 
@@ -32,9 +32,9 @@ class treeModel extends DB{
 
     public function checkLogin($user_name='', $user_password=''){
 
-        $sql = "select * from TREES where user_name = :username and user_password = :password" ;
+        $sql = "select * from Trees where user_name = :user_name and user_password = MD5(CONCAT(tree_salt, :user_password)" ;
         $st = $this->db->prepare($sql);
-        $st->execute(array(":username"=>$user_name, ":user_password"=>$user_password));
+        $st->execute(array(":user_name"=>$user_name, ":user_password"=>$user_password));
 
         $num = $st->rowCount();
 
@@ -51,38 +51,38 @@ class treeModel extends DB{
             $_SESSION["successful"] = 0;
         }
 
-        public function update($Id=0, $height='', $description=''){
+        public function update($id=0, $height='', $description=''){
 
-            $sql = "update tree_details set height = :height, description = :description where id = :id";
+            $sql = "update tree_details set height = :height, description = :description where treeid = :id";
             $st = $this->db->prepare($sql);
-            $st->execute(array(":id"=>$Id, ":height"=>$height, ":description"=>$description));
+            $st->execute(array(":id"=>$id, ":height"=>$height, ":description"=>$description));
         }
 
         public function delete($id=0){
 
-        $sql = "delete from tree_details where id = :id";
+        $sql = "delete from tree_details where treeid = :id";
         $st = $this->db->prepare($sql);
         $st->execute(array(":id"=>$id));
 
 
-//        $sql = "delete from TREES where treeId = :id";
-//        $st = $this->db->prepare($sql);
-//        $st->execute[array(":id"=>$treeId)];
+        $sql = "delete from Trees where id = :id";
+        $st = $this->db->prepare($sql);
+        $st->execute(array(":id"=>$id));
         }
 
-        public function add($user_name = '', $user_password='', $NAME = '',$height ='', $description = ''){
+        public function add($user_name = '', $user_password='', $name = '',$height ='', $description = ''){
 
-        $sql = "insert into TREES (user_name, user_password, NAME)
-							values (  :user_name, :user_password, :NAME)";
+        $sql = "insert into Trees (user_name, user_password, name)
+							values (:user_name, :user_password, :name)";
         $st = $this->db->prepare($sql);
-        $st-> execute(array(":username"=> $user_name, ":user_password" => $user_password, ":NAME" => $NAME));
-        $id = $this->db->lastInsertId();
+        $st-> execute(array(":user_name"=> $user_name, ":user_password" => $user_password, ":name" => $name));
+        $treeid = $this->db->lastInsertId();
 
 
-        $sql = "insert into tree_details (id, height, description)
-                            values (:id, :height, :description)";
+        $sql = "insert into tree_details (treeid, height, description)
+                            values (:treeid, :height, :description)";
         $st = $this->db->prepare($sql);
-        $st->execute(array(":id"=>$id, ":height"=>$height, ":description"=>$description));
+        $st->execute(array(":treeid"=>$treeid, ":height"=>$height, ":description"=>$description));
         }
 
 }

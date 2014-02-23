@@ -23,13 +23,6 @@
 <h1>Tree Types</h1>
 
 <p><b>Welcome to a selection of different trees</b></p>
-<p><a href="?action=">Home</a> |
+<nav><a href="?action=">Home</a> | <a href="?action=login">Login</a></nav>
 
-<?php
-if($_SESSION["successful"] = 1){
-    echo " <a href='index.php?action=logout'>Log Out</a> | ";
-    echo " <a href='protected.php?action='>Protected</a> | <a href='/protected.php?action=add'>Add a Tree</a></p>";
-}else{
-    echo "<a href ='index.php?action=login'>Login</a></p>";
-}
-?>
+

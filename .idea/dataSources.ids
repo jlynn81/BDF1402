@@ -13,11 +13,16 @@
     <schema name="" catalog="mysql"/>
     <schema name="" catalog="performance_schema"/>
     <table name="Trees" schema="" catalog="BDF1402" type="TABLE">
-      <column name="treeId" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" def="MA=="/>
+      <column name="id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" def="MA=="/>
       <column name="name" sqlType="VARCHAR" length="250" precision="0" nullable="true" jdbcType="12"/>
       <column name="user_name" sqlType="VARCHAR" length="250" precision="0" nullable="true" jdbcType="12"/>
       <column name="user_password" sqlType="VARCHAR" length="250" precision="0" nullable="true" jdbcType="12"/>
-      <primary-key name="PRIMARY" columns="treeId"/>
+      <column name="tree_height" sqlType="VARCHAR" length="250" precision="0" nullable="true" jdbcType="12"/>
+      <column name="tree_description" sqlType="VARCHAR" length="250" precision="0" nullable="true" jdbcType="12"/>
+      <column name="tree_salt" sqlType="CHAR" length="8" precision="0" nullable="true" jdbcType="1"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <index name="UX_name" unique="true" columns="name"/>
+      <index name="UX_name_password" unique="false" columns="user_name,user_password"/>
     </table>
     <table name="plant_users" schema="" catalog="BDF1402" type="TABLE">
       <column name="id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
@@ -28,10 +33,11 @@
       <primary-key name="PRIMARY" columns="id"/>
     </table>
     <table name="tree_details" schema="" catalog="BDF1402" type="TABLE">
-      <column name="id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="treeid" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" def="MA=="/>
+      <column name="name" sqlType="VARCHAR" length="250" precision="0" nullable="true" jdbcType="12"/>
       <column name="height" sqlType="VARCHAR" length="250" precision="0" nullable="true" jdbcType="12"/>
       <column name="description" sqlType="VARCHAR" length="250" precision="0" nullable="true" jdbcType="12"/>
-      <primary-key name="PRIMARY" columns="id"/>
+      <primary-key name="PRIMARY" columns="treeid"/>
     </table>
     <table name="user_details" schema="" catalog="BDF1402" type="TABLE">
       <column name="id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>

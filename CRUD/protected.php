@@ -8,8 +8,8 @@ include 'models/treeModel.php';
 
 $pagename = 'protected';
 
-$views = new treeModel();
-$trees = new treeViewModel();
+$views = new treeViewModel();
+$trees = new treeModel();
 
 //Display header
 $views->getView("views/header.inc");
@@ -19,7 +19,7 @@ if(!empty($_GET["action"])){
 
     if($_GET["action"]=="update"){
 
-        $result = $trees->getOne($_GET["treeId"]);
+        $result = $trees->getOne($_GET["id"]);
         $views->getView("views/updateform.html", $result);
 
     }else if($_GET["action"]=="updateaction"){
@@ -39,7 +39,7 @@ if(!empty($_GET["action"])){
         $views->getView("views/addform.html");
 
     }else if ($_GET["action"] == "addaction"){
-        $trees->add($_POST["name"], $_POST["user_name"],  $_POST["user_password"], $_POST["height"], $_POST["description"] );
+        $trees->add($_POST["name"], $_POST["user_name"],  $_POST["user_password"], $_POST["tree_height"], $_POST["tree_description"] );
         $result = $trees -> getAll();
         $views->getView("views/protected.php", $result);
     }

@@ -3,7 +3,8 @@ foreach($data as $d){
 ?>
 <center>
 <form action="?action=updateaction&id=<?=$d['id']?>" method="post">
-<input type="text" name="height" value="<?=$d['height']?>"/>
+<input type="text" name="name" value="<?=$d['name']?>"/>
+<br><input type="text" name="height" value="<?=$d['height']?>"/>
 <br><input type="text" name="description" value="<?=$d['description']?>"/>
 <br><input type="submit" value="Update" />
 </form>

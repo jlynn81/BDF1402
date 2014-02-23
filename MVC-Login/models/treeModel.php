@@ -9,9 +9,9 @@ class treeModel extends DB{
     }
 
     public function getAll(){
-        $sql = "select t.name, t.id, t.user_name, t.user_password, td.height, td.description, td.id
+        $sql = "select t.name, t.id, t.user_name, t.user_password, td.height, td.description, td.treeid
         from
-        TREES t join tree_details td on t.id = td.id";
+        TREES t join tree_details td on t.id = td.treeid";
 
         $st = $this->db->prepare($sql);
         $st->execute();
@@ -22,7 +22,7 @@ class treeModel extends DB{
 
     public function getOne($id=0){
 
-        $sql = "select * from tree_details where id = :id";
+        $sql = "select * from tree_details where treeid = :id";
         $st = $this->db->prepare($sql);
         $st->execute[array(":id"=>$id)];
 

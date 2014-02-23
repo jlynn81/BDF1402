@@ -8,8 +8,8 @@ include 'models/treeModel.php';
 
 $pagename = 'protected';
 
-$views = new treeModel();
-$trees = new treeViewModel();
+$views = new treeViewModel();
+$trees = new treeModel();
 
 $views->getView("views/header.inc");
 
