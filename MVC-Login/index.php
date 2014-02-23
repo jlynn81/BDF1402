@@ -29,7 +29,7 @@ if(!empty($_GET["action"])){
     }if($_GET["action"]=="trees"){
 
         $result = $trees->getOne($_GET["id"]);
-        $views->getView("views/treeDetails.php", $result);
+        $views->getView("views/tree_details.php", $result);
 
     }if($_GET["action"]=="login"){
 

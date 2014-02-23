@@ -30,11 +30,11 @@ class treeModel extends DB{
 
     }
 
-    public function checkLogin($username='', $password=''){
+    public function checkLogin($user_name='', $user_password=''){
 
         $sql = "select * from TREES where user_name = :username and user_password = :password" ;
         $st = $this->db->prepare($sql);
-        $st->execute[array(":user_name"=>$username, ":user_password"=>$password)];
+        $st->execute(array(":user_name"=>$user_name, ":user_password"=>$user_password));
 
         $num = $st->rowCount();
 
@@ -60,7 +60,7 @@ class treeModel extends DB{
 
         public function delete($id=0){
 
-        $sql = "delete from tree_details where id =:id";
+        $sql = "delete from tree_details where treeid = :id";
         $st = $this->db->prepare($sql);
         $st->execute(array(":id"=>$id));
 
@@ -69,13 +69,19 @@ class treeModel extends DB{
         $st->execute[array(":id"=>$id)];
         }
 
-        public function add($user_name = '', $user_password='', $NAME = '', $height ='', $description = ''){
+        public function add($user_name = '', $user_password='', $NAME = '',$height ='', $description = ''){
 
-        $sql = "insert into TREES (user_name, user_password, NAME, height, description)
-							values (  :user_name, :user_password, :NAME, :height, :description)";
+        $sql = "insert into TREES (user_name, user_password, NAME)
+							values (  :user_name, :user_password, :NAME)";
         $st = $this->db->prepare($sql);
-        $st-> execute(array(":user_name"=> $user_name, ":user_password" => $user_password, ":NAME" => $NAME, ":height" => $height, ":description"=>$description));
+        $st-> execute(array(":user_name"=> $user_name, ":user_password" => $user_password, ":NAME" => $NAME));
+        $id = $this->db->lastInsertId();
 
+
+        $sql = "insert into tree_details (id, height, description)
+                            values (:id, :height, :description)";
+        $st = $this->db->prepare($sql);
+        $st->execute(array(":id"=>$id, ":height"=>$height, ":description"=>$description));
         }
 
 }

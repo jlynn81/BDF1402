@@ -44,27 +44,11 @@ if(!empty($_GET["action"])){
         $views->getView("views/protected.php", $result);
     }
 
-
-    //if($_GET["action"]=="home"){
-    //	$result = $trees->getAll();
-    //	$views->getView("views/tree.php", $result);
-    //}
-
-    //if($_GET["action"]=="details"){
-    //	$result=$trees->getOne($_GET["id"]);
-    //	$views->getView("views/treeDetails.php",$result);
-    //$data = $trees->getAll();
-    //$views->getView("views/tree.php",$data);
-
-
 }else{
 
     $result = $trees->getAll();
     $views->getView("views/protected.php", $result);
 
-    //$data = $trees->getAll();
-
-    //$views->getView("views/tree.php",$data);
 }
 
 $views->getView("views/footer.inc");
