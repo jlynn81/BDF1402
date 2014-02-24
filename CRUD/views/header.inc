@@ -21,8 +21,8 @@
 <body>
 
 <h1>Tree Types</h1>
-
+<nav><a href="?action=">Home</a></nav>
 <p>Welcome to a selection of different trees</p>
-<nav><a href="?action=">Home</a> </nav>
+
 
 

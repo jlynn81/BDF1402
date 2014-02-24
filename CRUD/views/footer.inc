@@ -1,3 +1,4 @@
+<nav id="bottom">
 <?php
 if($_SESSION["successful"] == 1){
     echo " <a href='index.php?action=logout'>Log Out</a> | ";
@@ -6,15 +7,11 @@ if($_SESSION["successful"] == 1){
     echo " <a href ='index.php?action=login'>Login</a></p>";
 }
 ?>
-
+    </button></nav>
 
 </body>
 
-
-
 <footer>
-
-
 
     <footer>Created by Jennifer Brown | BDF1402 | @February 2014</footer>
 

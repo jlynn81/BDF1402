@@ -14,9 +14,7 @@ body{
 
     padding: 20px;
 }
-nav{
-    color: #adff2f;
-}
+
 
 h1{
     background-color: #91B7D9;
@@ -31,28 +29,58 @@ li{
     list-style: none;
     font-size: 14pt;
 }
-
-a{
-    font-size: 12pt;
+/*Navigation Top*/
+nav a{
+    font-size: 24pt;
     display: inline;
 }
+
 p{
     font-size: 18pt;
+    color: darkblue;
+}
+/*Navigation bottom*/
+#bottom{
+    margin-top: 20px;
+    text-align: center;
 }
 
-#treeDisc{
-    font-size: 14pt;
+#bottom a{
+    font-size: 12pt;
+    display: inline;
 
 }
-b{
 
-    text-align: left;
-}
+/*Tree Data Information*/
+#treeDisc{ font-size: 12pt;}
+
+#treeDisc b{ text-align: left;}
+
+#treeDisc a{ text-align: right;}
+
+#treeDisc table{ margin-bottom: 15px;}
+
+/*Error Message*/
 #err{
     color: #8b0000;
     text-align: center;
 }
+/*Add Tree Information Form*/
+#addform{
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    width: 250px;
+}
 
+#addform p{
+    width: 250px;
+    margin-top: 20px; margin-bottom: 5px;
+}
+
+#addform form{margin-top: -20px;}
+
+/*Footer*/
 footer{
     text-align: center;
 }
