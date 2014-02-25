@@ -9,7 +9,7 @@ class treeModel extends DB{
     }
 
     public function getAll(){
-        $sql = "select t.name, t.id, td.height, td.description, td.id
+        $sql = "select t.name, t.id, td.name, td.height, td.description, td.id
         from
         Trees t join tree_details td on t.id = td.id";
 
