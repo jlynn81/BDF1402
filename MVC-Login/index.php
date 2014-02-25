@@ -26,10 +26,10 @@ if(!empty($_GET["action"])){
         $result = $trees->getAll();
         $views->getView("views/tree.php", $result);
 
-    }if($_GET["action"]=="trees"){
+    }if($_GET["action"]=="Trees"){
 
         $result = $trees->getOne($_GET["id"]);
-        $views->getView("views/tree_details.php", $result);
+        $views->getView("views/treeDetails.php", $result);
 
     }if($_GET["action"]=="login"){
 

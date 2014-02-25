@@ -9,9 +9,9 @@ class treeModel extends DB{
     }
 
     public function getAll(){
-        $sql = "select t.name, t.id, t.user_name, t.user_password, td.height, td.description, td.treeid
+        $sql = "select t.name, t.id, td.height, td.description, td.id
         from
-        TREES t join tree_details td on t.id = td.treeid";
+        Trees t join tree_details td on t.id = td.id";
 
         $st = $this->db->prepare($sql);
         $st->execute();
@@ -22,9 +22,9 @@ class treeModel extends DB{
 
     public function getOne($id=0){
 
-        $sql = "select * from tree_details where treeid = :id";
+        $sql = "select * from tree_details where id = :id";
         $st = $this->db->prepare($sql);
-        $st->execute[array(":id"=>$id)];
+        $st->execute(array(":id"=>$id));
 
         return $st->fetchAll();
 
@@ -32,9 +32,9 @@ class treeModel extends DB{
 
     public function checkLogin($user_name='', $user_password=''){
 
-        $sql = "select * from TREES where user_name = :username and user_password = :password" ;
+        $sql = "select * from Trees where user_name = :username and user_password = :password" ;
         $st = $this->db->prepare($sql);
-        $st->execute[array(":username"=>$user_name, ":password"=>$user_password)];
+        $st->execute(array(":user_name"=>$user_name, ":user_password"=>$user_password));
 
         $num = $st->rowCount();
 
