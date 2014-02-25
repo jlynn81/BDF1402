@@ -28,6 +28,7 @@
 <?php
 if($_SESSION['successful'] == 1){
     echo "<a href='index.php?action=logout'>Log Out</a></p> ";
+    echo "Successful Log In!!!";
     echo " <a href='protected.php?action='>Protected</a></p>";
 }else{
     echo "<a href ='index.php?action=login'>Login</a></p>";

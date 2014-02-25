@@ -32,7 +32,7 @@ class treeModel extends DB{
 
     public function checkLogin($user_name='', $user_password=''){
 
-        $sql = "select * from Trees where user_name = :username and user_password = :password" ;
+        $sql = "select * from Trees where user_name = :user_name and user_password = :user_password" ;
         $st = $this->db->prepare($sql);
         $st->execute(array(":user_name"=>$user_name, ":user_password"=>$user_password));
 
