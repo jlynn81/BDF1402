@@ -1,8 +1,8 @@
 <?php
 
 //my index page
-include 'models/treeViewModel.php';
 include 'models/treeModel.php';
+include 'models/treeViewModel.php';
 
 $pagename = 'index';
 

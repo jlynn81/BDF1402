@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
     <!--    CSS site stylization-->
-<!--    <link rel="stylesheet" type="text/css" href="CSS/styles.css"/>-->
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css"/>
 
     <!--    Web font for site-->
     <link href='http://fonts.googleapis.com/css?family=Ledger' rel='stylesheet' type='text/css'>
@@ -22,11 +22,12 @@
 
 <h1>Tree Types</h1>
 
-<?php
-echo "<p>Hello World</p>";
-echo date('l jS \of F Y h:i:s A');
-?>
+<p>Welcome to a selection of different trees</p>
 
 </body>
+
+    <footer>Created by Jennifer Brown | BDF1402 | @February 2014</footer>
+
+
 
 </html>
