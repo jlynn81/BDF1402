@@ -4,7 +4,7 @@
 include 'application/models/treeModel.php';
 include 'application/models/treeViewModel.php';
 
-$pagename = 'index';
+$pagename = 'main';
 
 $views = new treeViewModel();
 $trees = new treeModel();

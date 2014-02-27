@@ -8,8 +8,10 @@
     <!--    Mobile viewport optimized: j.mp/bplateviewport-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
+    <link href='http://fonts.googleapis.com/css?family=Ledger' rel='stylesheet' type='text/css'>
+
     <!--    CSS site stylization-->
-    <style type="text/css" href="CSS/styles.css">
+    <style type="text/css">
 
         body{
             background: rgb(247,251,252); /* Old browsers */
@@ -28,43 +30,58 @@
             padding: 20px;
         }
 
-        h1{
+        #page{
             background-color: #91B7D9;
             color: darkblue;
             text-align: center;
-            padding-bottom: 10px;
+            padding-top: 20px;
+            padding-bottom: 20px;
             border-bottom: 10px;
             font-size: 40pt;
+            font-family: 'Ledger'serif;
         }
 
         p{
             font-size: 18pt;
             color: darkblue;
+
         }
+
 
         a{
             font-size: 12pt;
             display: inline;
         }
 
+        li{
+            list-style: none;
+            font-size: 14pt;
+        }
+
         /*Tree Data Information*/
-        #treeDisc{ font-size: 12pt;}
 
-        #treeDisc b{ text-align: left;}
 
-        #treeDisc a{ text-align: right;}
+        #treeDisc b{
+            text-align: left;
+            color: darkgreen;
+
+        }
+
+        #treeDisc a{
+            text-align: right;
+        }
+
 
         #treeDisc table{ margin-bottom: 15px;}
 
         footer{
             text-align: center;
+            margin-top: 20px;
         }
 
 
     </style>
 
-    <!--    Web font for site-->
-    <link href='http://fonts.googleapis.com/css?family=Ledger' rel='stylesheet' type='text/css'>
 
     <title>Plants</title>
 
@@ -72,6 +89,9 @@
 
 <body>
 
-<center><h1>Tree Types</h1></center>
 
-<p>Welcome to a selection of different trees</p>
+
+<h1 id="page">Tree Types</h1>
+
+<p style="margin-top: 20px; margin-left: 0px;">Welcome to a selection of different trees</p>
+
