@@ -9,7 +9,7 @@ $pagename = 'index';
 $views = new treeViewModel();
 $trees = new treeModel();
 
-$views->getView("application/views/head.inc");
+$views->getView("application/views/header.inc");
 
 if(!empty($_GET["action"])){
     if($_GET["action"]=="home"){
