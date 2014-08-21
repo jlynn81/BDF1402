@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
     <!--    CSS site stylization-->
-    <link rel="stylesheet" type="text/css" href="CSS/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="../CSS/styles.css"/>
 
     <!--    Web font for site-->
     <link href='http://fonts.googleapis.com/css?family=Ledger' rel='stylesheet' type='text/css'>
